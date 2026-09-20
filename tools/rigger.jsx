@@ -83,6 +83,11 @@ if (typeof app === "undefined" || !app.project) {
     // ================================================= rig
     function rig(comp){
         var L=byName(comp);
+        // Idempotent: if the comp is already rigged (a limb controller
+        // exists), do nothing — re-rigging would duplicate controllers and
+        // break the hose expressions. (A fresh Generate clears the comp, so
+        // an unrigged rebuild rigs cleanly.)
+        if(L["CB_Arm_L_CTRL"] || L["CB_Leg_L_CTRL"]) return true;
         // --- master ---
         var master=L["CB_Master"];
         if(!master){
@@ -118,6 +123,10 @@ if (typeof app === "undefined" || !app.project) {
             var bodyRoot = isArm ? (chest||master) : (hips||master);
             reparent(lm, bodyRoot);
             reparent(ctrl, master);
+            // remember the controller's REST position (relative to master) so
+            // Random pose sets absolute offsets from rest instead of stacking.
+            var rp=tGroup(ctrl).property("ADBE Position").value;
+            ctrl.comment="CBREST "+rp[0]+","+rp[1];
             // parent the end part to the controller
             var end=L[endFor[limbNames[i]]]; if(end) reparent(end, ctrl);
         }
@@ -177,16 +186,23 @@ if (typeof app === "undefined" || !app.project) {
         { armL:[-110,-120],armR:[60,-30],  legL:[-50,0],  legR:[40,-40] }    // stride-mirror
     ];
     function findLayer(comp,nm){ for(var i=1;i<=comp.numLayers;i++) if(comp.layer(i).name===nm) return comp.layer(i); return null; }
+    // read the rest position stored on a controller by rig() ("CBREST x,y").
+    function parseRest(cmt, fallback){
+        if(cmt && cmt.indexOf("CBREST")===0){ var xy=cmt.substring(7).split(","); var x=parseFloat(xy[0]), y=parseFloat(xy[1]); if(!isNaN(x)&&!isNaN(y)) return [x,y]; }
+        return fallback;
+    }
     function pose(comp, seed){
         var rnd = (seed!=null) ? (function(){ var s=(seed>>>0)||1; return function(){ s^=s<<13;s=s>>>0;s^=s>>17;s^=s<<5;s=s>>>0; return (s>>>0)/4294967296; }; })() : Math.random;
-        var P=POSES[Math.floor((seed!=null?rnd():Math.random())*POSES.length)];
+        var P=POSES[Math.floor(rnd()*POSES.length)];
         var map={ "CB_Arm_L_CTRL":P.armL, "CB_Arm_R_CTRL":P.armR, "CB_Leg_L_CTRL":P.legL, "CB_Leg_R_CTRL":P.legR };
         for(var nm in map){ if(!map.hasOwnProperty(nm)) continue;
             var c=findLayer(comp,nm); if(!c) continue;
             var pos=tGroup(c).property("ADBE Position");
-            var base=pos.value; var d=map[nm];
+            // absolute from REST (not current) so repeated poses randomize
+            // instead of stacking/expanding.
+            var rest=parseRest(c.comment, pos.value); var d=map[nm];
             var jx=(rnd()-0.5)*40, jy=(rnd()-0.5)*40;
-            pos.setValue([base[0]+d[0]+jx, base[1]+d[1]+jy]);
+            pos.setValue([rest[0]+d[0]+jx, rest[1]+d[1]+jy]);
         }
         return true;
     }
