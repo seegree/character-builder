@@ -1,0 +1,145 @@
+<title>Character Builder — Panel Mock v4</title>
+<style>
+  :root{
+    --page:#111; --chrome:#232323; --row:#292929; --rowH:#2f2f2f;
+    --line:#1a1a1a; --edge:#3c3c3c; --dim:#8f9296; --txt:#d6d8da; --bright:#f0f1f2;
+    --accent:#e0a32e; --accentDim:#7a5c1e; --glass:#5fb0b2;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--page);color:var(--txt);
+    font-family:"Lucida Grande","Segoe UI",Helvetica,Arial,sans-serif;
+    display:flex;flex-wrap:wrap;gap:34px;justify-content:center;align-items:flex-start;
+    padding:40px 20px 80px;-webkit-font-smoothing:antialiased;}
+  .col{max-width:460px;}
+  .kicker{font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--dim);}
+  h1{font-size:25px;margin:.35em 0 .3em;color:var(--bright);font-weight:700;}
+  .lede{color:#a9adb1;font-size:14.5px;line-height:1.6;max-width:46ch;}
+  .legend{margin-top:18px;border-left:2px solid var(--accentDim);padding:8px 0 8px 14px;font-size:13px;color:#b3b7bb;line-height:1.75;}
+  .legend b{color:var(--accent);}
+  .note{font-size:12.5px;color:var(--dim);line-height:1.65;margin-top:16px;}
+  .note b{color:#c6c9cc;}
+
+  .panel{width:236px;background:var(--chrome);border:1px solid #000;border-radius:4px;
+    box-shadow:0 18px 50px -12px rgba(0,0,0,.7);overflow:hidden;user-select:none;position:relative;}
+  .titlebar{display:flex;align-items:center;justify-content:space-between;padding:7px 8px 7px 10px;
+    background:linear-gradient(#2a2a2a,#242424);border-bottom:1px solid var(--line);}
+  .titlebar .t{font-size:11.5px;color:#cfd2d4;font-weight:600;}
+  .gear{width:22px;height:22px;border:0;background:transparent;color:#8a8d90;cursor:pointer;border-radius:3px;font-size:14px;display:flex;align-items:center;justify-content:center;}
+  .gear:hover{background:#333;color:#d6d8da;}
+  .body{padding:9px;}
+
+  .rows{display:flex;flex-direction:column;gap:2px;}
+  .slot{display:grid;grid-template-columns:1fr 22px 22px 22px;align-items:center;gap:2px;
+    background:var(--row);border:1px solid #232323;border-radius:3px;height:25px;padding:0 4px 0 8px;}
+  .slot:hover{background:var(--rowH);}
+  .slot .name{font-size:11px;color:#b7babd;letter-spacing:.02em;white-space:nowrap;}
+  .slot.locked .name{color:var(--accent);}
+  .slot .arrow{width:22px;height:21px;border:0;background:transparent;color:#7f8285;font-size:12px;cursor:pointer;border-radius:2px;}
+  .slot .arrow:hover{background:#3a3a3a;color:#d6d8da;}
+  .slot .lock{width:20px;height:20px;border-radius:3px;background:#1c1c1c;border:1px solid #000;display:flex;align-items:center;justify-content:center;cursor:pointer;}
+  .slot .lock svg{width:9px;height:10px;stroke:#54585b;fill:none;stroke-width:1.2;}
+  .slot.locked{border-color:var(--accentDim);}
+  .slot.locked .lock{background:var(--accent);border-color:#8a6a20;}
+  .slot.locked .lock svg{stroke:#231a05;}
+  .slot.just{animation:flash .5s ease;}
+  @keyframes flash{0%{background:#463612;}100%{background:var(--row);}}
+
+  .generate{width:100%;height:36px;margin-top:10px;border:1px solid #8a6a20;border-radius:4px;
+    background:linear-gradient(#e6ab35,#cf8f22);color:#241a04;font-size:13px;font-weight:700;letter-spacing:.04em;cursor:pointer;box-shadow:0 2px 0 #7a5c1e;}
+  .generate:active{transform:translateY(1px);box-shadow:0 1px 0 #7a5c1e;}
+  .toast{font-size:10.5px;color:var(--accent);height:13px;margin-top:5px;text-align:center;}
+  .postrow{display:grid;grid-template-columns:1fr 1fr;gap:5px;margin-top:5px;}
+  .toggles{display:flex;gap:12px;margin-top:10px;padding-top:9px;border-top:1px solid var(--line);flex-wrap:wrap;}
+  .chk{display:flex;align-items:center;gap:5px;font-size:11px;color:#a9adb1;cursor:pointer;}
+  .chk .box{width:13px;height:13px;border:1px solid #111;border-radius:3px;background:#1b1b1b;display:flex;align-items:center;justify-content:center;}
+  .chk.on .box{background:var(--glass);border-color:#2e6e70;}
+  .chk .box svg{width:8px;height:8px;stroke:#0e2a2b;fill:none;stroke-width:1.8;display:none;}
+  .chk.on .box svg{display:block;}
+
+  /* settings popover (maps to a ScriptUI "Settings…" dialog) */
+  .settings{display:none;position:absolute;top:34px;right:8px;width:210px;background:#262626;
+    border:1px solid #000;border-radius:4px;box-shadow:0 12px 30px -8px rgba(0,0,0,.7);padding:10px;z-index:5;}
+  .settings.open{display:block;}
+  .settings h4{margin:0 0 8px;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--dim);}
+  .seedline{display:flex;gap:6px;align-items:center;}
+  .seed{flex:1;display:flex;align-items:center;background:#1b1b1b;border:1px solid #111;border-radius:3px;padding:0 7px;height:26px;}
+  .seed label{font-size:9px;letter-spacing:.14em;color:var(--dim);text-transform:uppercase;margin-right:6px;}
+  .seed input{flex:1;background:transparent;border:0;color:var(--bright);font-size:12px;font-family:ui-monospace,Menlo,monospace;outline:none;width:100%;}
+  .btn{height:26px;border:1px solid var(--edge);background:linear-gradient(#333,#2b2b2b);color:var(--txt);border-radius:3px;font-size:11.5px;cursor:pointer;padding:0 10px;}
+  .btn:hover{background:linear-gradient(#3a3a3a,#303030);}
+  .btn.icon{width:30px;padding:0;font-size:13px;display:flex;align-items:center;justify-content:center;}
+  .settings .hint{font-size:10.5px;color:#6d7074;line-height:1.5;margin-top:8px;}
+</style>
+
+<div class="col">
+  <div class="kicker">Character Builder · After Effects</div>
+  <h1>The panel &mdash; mock v4</h1>
+  <p class="lede">Seed moved out of the main flow into a <b>gear &middot; Settings</b> menu &mdash; it&rsquo;s only for reproducing or sharing a specific character. The everyday panel is just parts, Generate, and post-ops.</p>
+  <div class="legend">
+    <b>Cycle</b> a slot with ◀ ▶ and it <b>auto-locks</b>. <b>Generate</b> surprises every <b>unlocked</b> slot. The <b>gear</b> (top-right) holds Seed for reproduce/share.
+  </div>
+  <p class="note"><b>Try it &rarr;</b> cycle a couple rows, hit Generate, and open the <b>gear</b> to see the seed tucked away.</p>
+</div>
+
+<div class="panel" id="panel">
+  <div class="titlebar">
+    <span class="t">Character Builder</span>
+    <button class="gear" id="gear" title="Settings">&#9881;</button>
+  </div>
+  <div class="settings" id="settings">
+    <h4>Settings</h4>
+    <div class="seedline">
+      <div class="seed"><label>Seed</label><input id="seed" value="42071" spellcheck="false"></div>
+      <button class="btn icon" id="dice" title="Random">&#9860;</button>
+    </div>
+    <div class="hint">Every Generate uses a fresh seed. Paste one here to reproduce or share an exact character.</div>
+  </div>
+  <div class="body">
+    <div class="rows" id="rows"></div>
+    <button class="generate" id="gen">Generate</button>
+    <div class="toast" id="toast"></div>
+    <div class="postrow"><button class="btn" id="rig">Rig</button><button class="btn" id="pose">Random pose</button></div>
+    <div class="toggles">
+      <div class="chk on"><span class="box"><svg viewBox="0 0 10 10"><path d="M1 5l3 3 5-7"/></svg></span>Grain</div>
+      <div class="chk on"><span class="box"><svg viewBox="0 0 10 10"><path d="M1 5l3 3 5-7"/></svg></span>Shading</div>
+      <div class="chk"><span class="box"><svg viewBox="0 0 10 10"><path d="M1 5l3 3 5-7"/></svg></span>Blink</div>
+    </div>
+  </div>
+</div>
+
+<script>
+  var SLOTS=[
+    {k:"palette",nm:"Palette",n:5},{k:"body",nm:"Body",n:5},{k:"hair",nm:"Hair",n:6},
+    {k:"eyes",nm:"Eyes",n:8},{k:"brows",nm:"Brows",n:4},{k:"mouth",nm:"Mouth",n:5},
+    {k:"specs",nm:"Specs",n:5},{k:"top",nm:"Top",n:2},{k:"sleeve",nm:"Sleeve",n:3}
+  ];
+  var rows=document.getElementById("rows"), state={};
+  SLOTS.forEach(function(s){
+    state[s.k]={idx:Math.floor(Math.random()*s.n),locked:false};
+    var el=document.createElement("div"); el.className="slot"; el.id="slot-"+s.k; el.title=s.nm;
+    el.innerHTML='<div class="name">'+s.nm+'</div>'+
+      '<button class="arrow" data-d="-1">&#9664;</button>'+
+      '<button class="arrow" data-d="1">&#9654;</button>'+
+      '<div class="lock"><svg viewBox="0 0 10 12"><rect x="1.5" y="5" width="7" height="6" rx="1"/><path d="M3 5V3.5a2 2 0 0 1 4 0V5"/></svg></div>';
+    el.querySelectorAll(".arrow").forEach(function(a){ a.addEventListener("click",function(){
+      var st=state[s.k]; st.idx=(st.idx+parseInt(a.dataset.d)+s.n)%s.n; st.locked=true; draw(s); flash(el);
+    });});
+    el.querySelector(".lock").addEventListener("click",function(){ state[s.k].locked=!state[s.k].locked; draw(s); });
+    rows.appendChild(el); draw(s);
+  });
+  function draw(s){ document.getElementById("slot-"+s.k).classList.toggle("locked",state[s.k].locked); }
+  function flash(el){ el.classList.remove("just"); void el.offsetWidth; el.classList.add("just"); }
+  function toast(m){ var t=document.getElementById("toast"); t.textContent=m; setTimeout(function(){ if(t.textContent===m) t.textContent=""; },1700); }
+  document.getElementById("gear").addEventListener("click",function(e){ e.stopPropagation(); document.getElementById("settings").classList.toggle("open"); });
+  document.addEventListener("click",function(e){ var s=document.getElementById("settings"); if(!s.contains(e.target) && e.target.id!=="gear") s.classList.remove("open"); });
+  document.getElementById("dice").addEventListener("click",function(){ document.getElementById("seed").value=String(Math.floor(Math.random()*100000)); });
+  document.getElementById("gen").addEventListener("click",function(){
+    var changed=0;
+    SLOTS.forEach(function(s){ var st=state[s.k]; if(!st.locked){ st.idx=Math.floor(Math.random()*s.n); changed++; } });
+    document.getElementById("seed").value=String(Math.floor(Math.random()*100000));
+    toast(changed? ("Generated · rerolled "+changed+" slot"+(changed>1?"s":"")) : "All slots locked");
+  });
+  document.getElementById("rig").addEventListener("click",function(){ toast("Rigged"); });
+  document.getElementById("pose").addEventListener("click",function(){ toast("Random pose"); });
+  document.querySelectorAll(".chk").forEach(function(c){ c.addEventListener("click",function(){ c.classList.toggle("on"); }); });
+</script>
