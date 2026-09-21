@@ -1,43 +1,91 @@
 # Character Builder
 
-An After Effects ScriptUI panel that generates fully rigged,
-ready-to-animate rubber-hose characters — one-click, exquisite-corpse
-style: every Generate is a surprising new character; per-part locks
-keep what you love while the rest re-rolls.
+An After Effects panel that generates fully rigged, ready-to-animate
+**rubber-hose characters** — one click, exquisite-corpse style. Every
+**Generate** is a surprising new character; cycle any part to dial it in
+(that part locks automatically), lock what you love, and reroll the rest.
+Then **Rig** it and it's ready to pose and animate.
 
-**Status: Milestone 2 (genome + parts library).** No panel yet, but
-`tools/character_builder.jsx` is a data-driven builder: a seeded genome
-picks head / eyes / mouth / hat / torso / gloves / shoes / palette plus
-jittered proportions, and `buildCharacter(genome)` produces a fully
-rigged character. Run it directly to build one random character.
+Characters are drawn entirely from parametric AE shape layers — no
+imported art — in a modern flat "rubber-hose" look, with a spray-shade
+texture pass, auto-blink, and a breathing idle.
 
-## Try the builder
+![cast](renders/gen_contact.png)
 
-1. In After Effects: **File > Scripts > Run Script File…** and pick
-   `tools/character_builder.jsx` (AE 15.0 / CC 2018+).
-2. A comp **CB &lt;seed&gt;** opens with a random rigged character.
-3. Drag `C_Hand_L/R`, `C_Foot_L/R`, `C_Head`; rotate `C_Hips`/`C_Chest`;
-   move `C_Master`. Run again for a new character.
+## Install
 
-Force a seed / lock parts / add texture by setting globals first
-(see the header of `character_builder.jsx`): `CB_SEED`, `CB_LOCKS`
-(e.g. `"palette|legs"`), `CB_TEXTURE` (`grain`|`rough`|`boil`).
+1. Copy **`CharacterBuilder.jsx`** into your AE scripts folder:
+   `…/Adobe After Effects <version>/Scripts/ScriptUI Panels/`
+2. Restart After Effects and open **Window → CharacterBuilder** (it docks
+   like any panel).
 
-`tools/rig_spike.jsx` remains as the milestone-1 single hard-coded rig.
+**Requires After Effects 2023 (23.0) or newer** — the shading uses the
+modern `setTrackMatte` API and the limbs use `createPath()` expressions.
+Built and tested on AE 2026.
+
+> **Note (dev build):** the panel loads its engine from this repo's
+> `tools/` folder. Keep the repo in place, or edit the `toolsDir()`
+> fallback path at the top of `CharacterBuilder.jsx`. A self-contained
+> single-file build (inlining the engine) is a planned packaging step.
+
+## Using the panel
+
+- **Part rows** — one per slot (Palette, Body, Hair, Eyes, Brows, Mouth,
+  Beard, Specs, Top, Sleeve). Use **◀ ▶** to cycle a slot; cycling
+  **auto-locks** it (you chose it, so it's kept). Toggle the checkbox to
+  lock a random result you like, or release a dialed slot back into the
+  shuffle.
+- **Generate** — rerolls every *unlocked* slot into your active comp
+  (a comp named **Character**). Lock nothing for pure roulette; dial or
+  pin a few for exquisite-corpse.
+- **Rig** — adds the rubber-hose IK rig: drag the red **hand/foot**
+  controllers to bend the limbs, rotate **Hips/Chest** to bend the body,
+  **Head** to tilt (pivots at the neck), **Master** to move everyone. All
+  art is locked so only the controllers are grabbable.
+- **Pose** — a random pose (rigs first if needed).
+- **Idle** — a subtle breathing bob; tune or remove it via the **Idle**
+  slider on the `CB_Master` controller.
+- **Set** — Settings: Grain / Shading / Blink toggles and the Seed
+  (for reproducing or sharing an exact character).
+
+## How it works
+
+Three pieces, deliberately separated so art, generation, and rigging
+stay independent:
+
+| File | Role |
+| --- | --- |
+| `tools/character_gen.jsx` | The **generator**. A seeded genome + parts library; `CGEN.buildChoice(comp, choice, opts)` draws a full character. Exposes the slot list the panel builds its rows from. |
+| `tools/rigger.jsx` | The **rigger**. `CBRIG.rig/pose/idle(comp)`. Art-agnostic: it rigs *any* comp that follows the layer convention — generated, hand-built in AE, or imported and organized (à la Overlord). |
+| `CharacterBuilder.jsx` | The **panel**. Translates the mock into ScriptUI and wires it to the generator and rigger. |
+
+Because the rigger is decoupled from the art, you can **rig your own
+characters**: name the layers per `docs/rig-convention.md` (limbs
+anchored at the joint, generic art tagged by region) and call
+`CBRIG.rig(comp)`.
 
 ## Repo layout
 
-- `tools/character_builder.jsx` — genome + parts library + rig (the core)
-- `tools/rig_spike.jsx` — milestone-1 spike: one hard-coded rigged character
-- `docs/rigging-notes.md` — hierarchy, hose-IK contract, shape-layer facts, test checklist
-- `docs/jsx-design-principles.md` — panel design philosophy and ScriptUI gotchas
-- (coming) `mock/panel-mock.html`, `CharacterBuilder.jsx`, `tools/generate_icons.py`
+- `CharacterBuilder.jsx` — the dockable panel (install this)
+- `tools/character_gen.jsx` — generator (genome + parts + spray-shade)
+- `tools/rigger.jsx` — art-agnostic hose-IK rigger (rig / pose / idle)
+- `tools/rig_spike.jsx` — the original single hard-coded rig (reference)
+- `tools/*_study.jsx`, `tools/hero_striped.jsx`, `tools/character_builder.jsx`
+  — design-exploration one-offs kept for reference
+- `docs/rig-convention.md` — the layer naming/tagging convention for rigging
+- `docs/rigging-notes.md` — hose-IK contract, hierarchy, AE shape-layer facts
+- `docs/jsx-design-principles.md` — ScriptUI panel design philosophy & gotchas
+- `mock/panel-mock.html` — the clickable panel mock the UI was designed from
+- `renders/` — milestone renders · `character-ref-ai/` — style references
 
-## Roadmap
+## Status
 
-1. ✅ Rig spike — expression IK, bendy `createPath()` limbs, controllers
-2. ✅ Genome + parts library — seeded shuffle, variants, palettes, texture, locks
-3. HTML mock of the panel (mock-first, per design principles)
-4. ScriptUI panel wired to the builder, per-part lock tiles
-5. Random poses, auto-blink, idle bounce (walk cycle deferred)
-6. Face variation, icons, install polish
+Core tool complete end to end: **generate → rig → pose → animate.**
+
+- ✅ Rig spike — expression IK, bendy `createPath()` limbs, controllers
+- ✅ Genome + parts library — seeded shuffle, variants, palettes, texture, locks
+- ✅ Panel — mock-first design, then ScriptUI wired to the builder
+- ✅ Rigging — art-agnostic rigger + rig-ready generator
+- ✅ Random poses, auto-blink, idle bounce (walk cycle deferred)
+- ◻ Remaining polish — panel accent/icon tiles, wardrobe expansion,
+  reproduce-from-seed in place, face/look controls

@@ -49,7 +49,7 @@
         app.beginUndoGroup("Character Builder: build");
         ensureChoice();
         var comp=getComp();
-        while(comp.numLayers>0) comp.layer(1).remove();
+        while(comp.numLayers>0){ var ly=comp.layer(1); if(ly.locked) ly.locked=false; ly.remove(); }
         CGEN.buildChoice(comp, choice, opts);
         rigged=false;
         try{ comp.openInViewer(); }catch(e){}

@@ -54,7 +54,8 @@ if (typeof app === "undefined" || !app.project) {
     var EYES=["almond","dots","round","sleepy","happy","wink","star","heart"];
     var BROWS=["none","thin","raised","thick"];
     var MOUTHS=["smile","neutral","open","oh","flat"];
-    var HAIRS=["bob","sideswept","curly","long","bun","ponytail"];
+    var HAIRS=["bob","sideswept","curly","long","bun","ponytail","crop","quiff","bald"];
+    var FACIAL=["none","none","none","stubble","mustache","beard","goatee"];
     var WEAR=["none","none","none","round","rectangle","wayfarer","roundshade"];
     var TOPS=["solid","striped"];
 
@@ -65,7 +66,9 @@ if (typeof app === "undefined" || !app.project) {
         curly:[[-110,-44],[-150,-108],[-116,-150],[-58,-176],[0,-160],[58,-176],[116,-150],[150,-108],[110,-44],[54,-56],[0,-50],[-54,-56]],
         "long":[[-108,-42],[-138,-118],[-70,-166],[70,-166],[138,-118],[108,-42],[58,-58],[0,-52],[-58,-58]],
         bun:[[-104,-56],[-130,-120],[0,-152],[130,-120],[104,-56],[0,-90]],
-        ponytail:[[-104,-56],[-132,-122],[-6,-152],[126,-118],[104,-52],[0,-88]]
+        ponytail:[[-104,-56],[-132,-122],[-6,-152],[126,-118],[104,-52],[0,-88]],
+        crop:[[-148,-46],[-120,-150],[0,-182],[120,-150],[148,-46],[96,-56],[36,-40],[-30,-56],[-96,-42]],
+        quiff:[[-140,-40],[-132,-150],[-40,-212],[34,-206],[120,-150],[140,-40],[96,-54],[36,-40],[-30,-56],[-96,-42]]
     };
     var HBACK={
         bob:[[0,-168],[132,-128],[158,-6],[128,132],[74,156],[52,44],[0,26],[-52,44],[-74,156],[-128,132],[-158,-6],[-132,-128]],
@@ -73,7 +76,9 @@ if (typeof app === "undefined" || !app.project) {
         curly:[[0,-182],[92,-170],[152,-120],[178,-30],[150,70],[162,150],[82,150],[54,44],[0,26],[-54,44],[-82,150],[-162,150],[-150,70],[-178,-30],[-152,-120],[-92,-170]],
         "long":[[0,-168],[130,-128],[158,-10],[150,150],[138,330],[92,430],[52,420],[58,120],[0,50],[-58,120],[-52,420],[-92,430],[-138,330],[-150,150],[-158,-10],[-130,-128]],
         bun:[[0,-150],[112,-108],[122,-8],[80,60],[0,42],[-80,60],[-122,-8],[-112,-108]],
-        ponytail:[[0,-150],[112,-108],[122,-8],[80,60],[0,42],[-80,60],[-122,-8],[-112,-108]]
+        ponytail:[[0,-150],[112,-108],[122,-8],[80,60],[0,42],[-80,60],[-122,-8],[-112,-108]],
+        crop:[[0,-178],[128,-140],[150,-30],[126,58],[70,68],[0,56],[-70,68],[-126,58],[-150,-30],[-128,-140]],
+        quiff:[[0,-176],[128,-138],[148,-30],[124,56],[70,66],[0,54],[-70,66],[-124,56],[-148,-30],[-128,-138]]
     };
 
     var SF=1.30; // study(228) -> generator head(~300)
@@ -201,6 +206,21 @@ if (typeof app === "undefined" || !app.project) {
         "[value[0], s*100];";
     }
 
+    // facial hair (HAIR-colored), drawn over the lower face, under the mouth.
+    function drawFacial(L, type, pal){
+        if(!type || type==="none") return;
+        var v=grp(L,"g");
+        function beardShape(){ smooth(v,[[-138,26],[-120,110],[-60,166],[0,180],[60,166],[120,110],[138,26],[92,40],[40,64],[0,52],[-40,64],[-92,40]],0.3); }
+        function mustacheShape(){ smooth(v,[[-52,80],[-18,74],[0,84],[18,74],[52,80],[30,98],[0,90],[-30,98]],0.3); }
+        function goateeShape(){ smooth(v,[[-34,116],[0,110],[34,116],[30,176],[0,182],[-30,176]],0.3); }
+        if(type==="beard"){ beardShape(); mustacheShape(); }
+        else if(type==="mustache"){ mustacheShape(); }
+        else if(type==="goatee"){ goateeShape(); mustacheShape(); }
+        else if(type==="stubble"){ beardShape(); }
+        fill(v, pal.hair);
+        if(type==="stubble"){ opL(L, 26); }   // reads as shadow
+    }
+
     // ---------- genome ----------
     function roll(seed){
         var r=new PRNG(seed), g={seed:seed};
@@ -223,11 +243,14 @@ if (typeof app === "undefined" || !app.project) {
 
         // ground shadow (under the feet)
         var sh=layer(comp,"Shadow"); var shv=grp(sh,"g"); ell(shv,[0,0],[A.stance*4+160,58]); fill(shv,mul(pal.bg,0.86)); posL(sh,[CX,ankleY+42]); sh.comment="CBART master";
-        // hair back
-        var hb=layer(comp,"HairBack"); var hbv=grp(hb,"g"); smooth(hbv,sc(HBACK[g.hair],SF));
-        if(g.hair==="bun") smooth(hbv,sc([[0,-212],[46,-192],[46,-150],[0,-132],[-46,-150],[-46,-192]],SF));
-        if(g.hair==="ponytail") smooth(hbv,sc([[104,-30],[168,-16],[190,66],[172,156],[138,152],[132,64],[92,8]],SF));
-        fill(hbv,HR); posL(hb,[CX,HEADY]); hb.comment="CBART head";
+        // hair back (skip entirely when bald)
+        var hb=null;
+        if(g.hair!=="bald"){
+            hb=layer(comp,"HairBack"); var hbv=grp(hb,"g"); smooth(hbv,sc(HBACK[g.hair],SF));
+            if(g.hair==="bun") smooth(hbv,sc([[0,-212],[46,-192],[46,-150],[0,-132],[-46,-150],[-46,-192]],SF));
+            if(g.hair==="ponytail") smooth(hbv,sc([[104,-30],[168,-16],[190,66],[172,156],[138,152],[132,64],[92,8]],SF));
+            fill(hbv,HR); posL(hb,[CX,HEADY]); hb.comment="CBART head";
+        }
         // legs: joint-anchored hose limbs (hip -> ankle), rig-ready
         function legLimb(nm,dir){ var l=layer(comp,nm); var v=grp(l,"g");
             pth(v,[[0,0],[0,A.legLen]],null,null,false);
@@ -281,6 +304,8 @@ if (typeof app === "undefined" || !app.project) {
         if(g.shade!==false) shade(comp, fc, [
             [CX+66,551,150,150,SKIN_SH,60,100,BlendingMode.MULTIPLY],
             [CX-72,371,108,108,SKIN_HI,52,105,BlendingMode.SCREEN] ], "head");
+        // facial hair (over face, under mouth)
+        if(g.beard && g.beard!=="none"){ var FA=layer(comp,"Facial"); drawFacial(FA,g.beard,pal); posL(FA,[CX,HEADY]); FA.comment="CBART head"; }
         // features
         var FL=layer(comp,"Features"); drawMouthNose(FL,g.mouth,pal); posL(FL,[CX,HEADY]); FL.comment="CBART head";
         // Eyes on their own layer, anchored at eye level so auto-blink can
@@ -292,10 +317,12 @@ if (typeof app === "undefined" || !app.project) {
         if(g.blink){ EL.property("ADBE Transform Group").property("ADBE Scale").expression=blinkScaleExpr(); }
         var BR=layer(comp,"Brows"); drawBrows(BR,g.brow,pal); posL(BR,[CX,HEADY]); BR.comment="CBART head";
         var WL=layer(comp,"Eyewear"); drawEyewear(WL,g.wear,pal); posL(WL,[CX,HEADY]); WL.comment="CBART head";
-        // hair front
-        var hf=layer(comp,"HairFront"); var hfv=grp(hf,"g"); smooth(hfv,sc(HFRONT[g.hair],SF)); fill(hfv,HR); posL(hf,[CX,HEADY]); hf.comment="CBART head";
+        // hair front (skip when bald)
+        if(g.hair!=="bald"){
+            var hf=layer(comp,"HairFront"); var hfv=grp(hf,"g"); smooth(hfv,sc(HFRONT[g.hair],SF)); fill(hfv,HR); posL(hf,[CX,HEADY]); hf.comment="CBART head";
+        }
         // hair sheen (matted to the back-hair mass)
-        if(g.shade!==false) shade(comp, hb, [
+        if(g.shade!==false && hb) shade(comp, hb, [
             [CX-120,300,90,150,HAIR_HI,30,90,BlendingMode.SCREEN] ], "head");
         // body pivots (nulls) for the rigger to build the hierarchy on
         // Body controllers (grabbable guide shapes, red label). Hips &
@@ -334,6 +361,7 @@ if (typeof app === "undefined" || !app.project) {
         {key:"eyes",   label:"Eyes",   vals:EYES},
         {key:"brows",  label:"Brows",  vals:BROWS},
         {key:"mouth",  label:"Mouth",  vals:MOUTHS},
+        {key:"beard",  label:"Beard",  vals:FACIAL},
         {key:"specs",  label:"Specs",  vals:SPECS},
         {key:"top",    label:"Top",    vals:TOPS},
         {key:"sleeve", label:"Sleeve", vals:SLEEVES}
@@ -343,7 +371,7 @@ if (typeof app === "undefined" || !app.project) {
         opts=opts||{};
         var g={ seed:0, pal:ch.palette, arch:ARCHK[ch.body], hair:HAIRS[ch.hair],
             eye:EYES[ch.eyes], brow:BROWS[ch.brows], mouth:MOUTHS[ch.mouth],
-            wear:SPECS[ch.specs], top:TOPS[ch.top], sleeve:SLEEVES[ch.sleeve] };
+            beard:FACIAL[ch.beard], wear:SPECS[ch.specs], top:TOPS[ch.top], sleeve:SLEEVES[ch.sleeve] };
         g.grain=(opts.grain!==false); g.shade=(opts.shade!==false); g.blink=(opts.blink===true);
         return g;
     }

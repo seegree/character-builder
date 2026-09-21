@@ -146,12 +146,11 @@ if (typeof app === "undefined" || !app.project) {
             if(reg && regionLayer[reg]){ reparent(ly, regionLayer[reg]); }
         }
 
-        // --- lock art (everything that isn't a controller) ---
-        for(var k=1;k<=comp.numLayers;k++){ var a=comp.layer(k);
-            if(!a.guideLayer && a.name.indexOf("_CTRL")<0 && a.name.indexOf("CB_Head")!==0 && a.name.indexOf("CB_Master")!==0 && a.name.indexOf("CB_Hips")!==0 && a.name.indexOf("CB_Chest")!==0){
-                // don't lock limbs (they carry expressions but shouldn't be user-grabbed anyway)
-            }
-        }
+        // --- lock everything that isn't a controller (MUST be last, after
+        // all reparenting). Every controller is a guide layer, so the rule
+        // is simply: lock all non-guide layers. This leaves only the red
+        // controllers grabbable, so a stray viewport click can't move art.
+        for(var k=1;k<=comp.numLayers;k++){ var a=comp.layer(k); if(!a.guideLayer) a.locked=true; }
         return true;
     }
 
