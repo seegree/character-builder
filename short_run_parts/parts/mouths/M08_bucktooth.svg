@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-118 -108 236 216" width="472" height="432">
+<title>M08 Bucktooth</title>
+<g id="M08">
+  <path d="M-8.25 51L-3.75 51C-1.82 51 -0.25 52.57 -0.25 54.5L-0.25 63.5C-0.25 65.43 -1.82 67 -3.75 67L-8.25 67C-10.18 67 -11.75 65.43 -11.75 63.5L-11.75 54.5C-11.75 52.57 -10.18 51 -8.25 51Z" fill="#F8F0DF" data-fill="stock" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M3.75 51L8.25 51C10.18 51 11.75 52.57 11.75 54.5L11.75 63.5C11.75 65.43 10.18 67 8.25 67L3.75 67C1.82 67 0.25 65.43 0.25 63.5L0.25 54.5C0.25 52.57 1.82 51 3.75 51Z" fill="#F8F0DF" data-fill="stock" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-23 48C-12 61 12 61 23 48" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-23 48L-28 42" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M23 48L28 42" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+</g>
+</svg>

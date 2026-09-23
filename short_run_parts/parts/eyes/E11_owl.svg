@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-118 -108 236 216" width="472" height="432">
+<title>E11 Owl</title>
+<g id="E11">
+  <path d="M-43.5 8C-43.5 24.57 -37.46 38 -30 38C-22.54 38 -16.5 24.57 -16.5 8C-16.5 -8.57 -22.54 -22 -30 -22C-37.46 -22 -43.5 -8.57 -43.5 8Z" fill="#F8F0DF" data-fill="stock" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-35 14C-35 17.31 -32.31 20 -29 20C-25.69 20 -23 17.31 -23 14C-23 10.69 -25.69 8 -29 8C-32.31 8 -35 10.69 -35 14Z" fill="#241820" data-fill="ink"/>
+  <path d="M-34.2 10.5C-34.2 11.72 -33.22 12.7 -32 12.7C-30.78 12.7 -29.8 11.72 -29.8 10.5C-29.8 9.28 -30.78 8.3 -32 8.3C-33.22 8.3 -34.2 9.28 -34.2 10.5Z" fill="#F8F0DF" data-fill="stock" data-knockout="1"/>
+  <path d="M43.5 8C43.5 24.57 37.46 38 30 38C22.54 38 16.5 24.57 16.5 8C16.5 -8.57 22.54 -22 30 -22C37.46 -22 43.5 -8.57 43.5 8Z" fill="#F8F0DF" data-fill="stock" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M35 14C35 17.31 32.31 20 29 20C25.69 20 23 17.31 23 14C23 10.69 25.69 8 29 8C32.31 8 35 10.69 35 14Z" fill="#241820" data-fill="ink"/>
+  <path d="M34.2 10.5C34.2 11.72 33.22 12.7 32 12.7C30.78 12.7 29.8 11.72 29.8 10.5C29.8 9.28 30.78 8.3 32 8.3C33.22 8.3 34.2 9.28 34.2 10.5Z" fill="#F8F0DF" data-fill="stock" data-knockout="1"/>
+</g>
+</svg>

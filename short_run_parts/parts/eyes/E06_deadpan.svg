@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-118 -108 236 216" width="472" height="432">
+<title>E06 Deadpan</title>
+<g id="E06">
+  <path d="M-17 6L-55 6C-55 17.6 -46.49 27 -36 27C-25.51 27 -17 17.6 -17 6Z" fill="#F8F0DF" data-fill="stock" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-43 14C-43 17.87 -39.87 21 -36 21C-32.13 21 -29 17.87 -29 14C-29 10.13 -32.13 7 -36 7C-39.87 7 -43 10.13 -43 14Z" fill="#241820" data-fill="ink"/>
+  <path d="M17 6L55 6C55 17.6 46.49 27 36 27C25.51 27 17 17.6 17 6Z" fill="#F8F0DF" data-fill="stock" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M43 14C43 17.87 39.87 21 36 21C32.13 21 29 17.87 29 14C29 10.13 32.13 7 36 7C39.87 7 43 10.13 43 14Z" fill="#241820" data-fill="ink"/>
+</g>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-118 -108 236 216" width="472" height="432">
+<title>E07 Sleepy</title>
+<g id="E07">
+  <path d="M-52 8C-52 20.7 -44.84 31 -36 31C-27.16 31 -20 20.7 -20 8C-20 -4.7 -27.16 -15 -36 -15C-44.84 -15 -52 -4.7 -52 8Z" fill="#F8F0DF" data-fill="stock"/>
+  <path d="M-44 17C-44 21.97 -39.97 26 -35 26C-30.03 26 -26 21.97 -26 17C-26 12.03 -30.03 8 -35 8C-39.97 8 -44 12.03 -44 17Z" fill="#241820" data-fill="ink"/>
+  <path d="M-40.55 14.3C-40.55 15.63 -39.48 16.7 -38.15 16.7C-36.82 16.7 -35.75 15.63 -35.75 14.3C-35.75 12.97 -36.82 11.9 -38.15 11.9C-39.48 11.9 -40.55 12.97 -40.55 14.3Z" fill="#F8F0DF" data-fill="stock" data-knockout="1"/>
+  <path d="M-21.02 -0.09C-23.86 -10.93 -31.85 -17.05 -39.68 -14.38C-47.52 -11.72 -52.76 -1.1 -51.91 10.41Z" fill="#F0B48F" data-fill="skin"/>
+  <path d="M-52 8C-52 20.7 -44.84 31 -36 31C-27.16 31 -20 20.7 -20 8C-20 -4.7 -27.16 -15 -36 -15C-44.84 -15 -52 -4.7 -52 8Z" fill="none" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-21.02 -0.09L-51.91 10.41" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="butt" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M52 8C52 20.7 44.84 31 36 31C27.16 31 20 20.7 20 8C20 -4.7 27.16 -15 36 -15C44.84 -15 52 -4.7 52 8Z" fill="#F8F0DF" data-fill="stock"/>
+  <path d="M44 17C44 21.97 39.97 26 35 26C30.03 26 26 21.97 26 17C26 12.03 30.03 8 35 8C39.97 8 44 12.03 44 17Z" fill="#241820" data-fill="ink"/>
+  <path d="M40.55 14.3C40.55 15.63 39.48 16.7 38.15 16.7C36.82 16.7 35.75 15.63 35.75 14.3C35.75 12.97 36.82 11.9 38.15 11.9C39.48 11.9 40.55 12.97 40.55 14.3Z" fill="#F8F0DF" data-fill="stock" data-knockout="1"/>
+  <path d="M21.02 -0.09C23.86 -10.93 31.85 -17.05 39.68 -14.38C47.52 -11.72 52.76 -1.1 51.91 10.41Z" fill="#F0B48F" data-fill="skin"/>
+  <path d="M52 8C52 20.7 44.84 31 36 31C27.16 31 20 20.7 20 8C20 -4.7 27.16 -15 36 -15C44.84 -15 52 -4.7 52 8Z" fill="none" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M21.02 -0.09L51.91 10.41" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="butt" stroke-linejoin="round" data-stroke="ink"/>
+</g>
+</svg>

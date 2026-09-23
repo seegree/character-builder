@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-118 -108 236 216" width="472" height="432">
+<title>G2 Square</title>
+<g id="G2">
+  <path d="M-54 -16L-18 -16C-10.82 -16 -5 -10.18 -5 -3L-5 21C-5 28.18 -10.82 34 -18 34L-54 34C-61.18 34 -67 28.18 -67 21L-67 -3C-67 -10.18 -61.18 -16 -54 -16Z" fill="none" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-52 1.4L-43.57 -5.67C-42.73 -6.38 -41.46 -6.27 -40.75 -5.42L-40.75 -5.42C-40.04 -4.57 -40.16 -3.31 -41 -2.6L-49.43 4.47C-50.27 5.18 -51.54 5.07 -52.25 4.22L-52.25 4.22C-52.96 3.37 -52.84 2.11 -52 1.4Z" fill="#F8F0DF" data-fill="stock" data-knockout="1"/>
+  <path d="M-66 4L-92 0" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M18 -16L54 -16C61.18 -16 67 -10.18 67 -3L67 21C67 28.18 61.18 34 54 34L18 34C10.82 34 5 28.18 5 21L5 -3C5 -10.18 10.82 -16 18 -16Z" fill="none" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M20 1.4L28.43 -5.67C29.27 -6.38 30.54 -6.27 31.25 -5.42L31.25 -5.42C31.96 -4.57 31.84 -3.31 31 -2.6L22.57 4.47C21.73 5.18 20.46 5.07 19.75 4.22L19.75 4.22C19.04 3.37 19.16 2.11 20 1.4Z" fill="#F8F0DF" data-fill="stock" data-knockout="1"/>
+  <path d="M66 4L92 0" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-5 4L5 4" fill="none" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+</g>
+</svg>

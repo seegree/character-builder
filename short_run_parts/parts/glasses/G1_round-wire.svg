@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-118 -108 236 216" width="472" height="432">
+<title>G1 Round Wire</title>
+<g id="G1">
+  <path d="M-5 8C-5 25.12 -18.88 39 -36 39C-53.12 39 -67 25.12 -67 8C-67 -9.12 -53.12 -23 -36 -23C-18.88 -23 -5 -9.12 -5 8Z" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-52.54 0.24L-43.73 -7.15C-42.88 -7.86 -41.62 -7.75 -40.91 -6.9L-40.91 -6.9C-40.2 -6.06 -40.31 -4.79 -41.16 -4.08L-49.97 3.31C-50.82 4.02 -52.08 3.91 -52.79 3.06L-52.79 3.06C-53.5 2.22 -53.39 0.95 -52.54 0.24Z" fill="#F8F0DF" data-fill="stock" data-knockout="1"/>
+  <path d="M-62 4L-92 0" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M67 8C67 25.12 53.12 39 36 39C18.88 39 5 25.12 5 8C5 -9.12 18.88 -23 36 -23C53.12 -23 67 -9.12 67 8Z" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M19.46 0.24L28.27 -7.15C29.12 -7.86 30.38 -7.75 31.09 -6.9L31.09 -6.9C31.8 -6.06 31.69 -4.79 30.84 -4.08L22.03 3.31C21.18 4.02 19.92 3.91 19.21 3.06L19.21 3.06C18.5 2.22 18.61 0.95 19.46 0.24Z" fill="#F8F0DF" data-fill="stock" data-knockout="1"/>
+  <path d="M62 4L92 0" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-6 0C-2 -7 2 -7 6 0" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+</g>
+</svg>

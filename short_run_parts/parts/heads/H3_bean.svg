@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-118 -108 236 216" width="472" height="432">
+<title>H3 Bean</title>
+<g id="ears">
+  <path d="M-102.63 12C-102.63 21.39 -95.02 29 -85.63 29C-76.24 29 -68.63 21.39 -68.63 12C-68.63 2.61 -76.24 -5 -85.63 -5C-95.02 -5 -102.63 2.61 -102.63 12Z" fill="#F0B48F" data-fill="skin" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-79.11 9.26C-80.26 6.1 -83.27 4 -86.63 4C-89.99 4 -93 6.1 -94.15 9.26" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M102.63 12C102.63 21.39 95.02 29 85.63 29C76.24 29 68.63 21.39 68.63 12C68.63 2.61 76.24 -5 85.63 -5C95.02 -5 102.63 2.61 102.63 12Z" fill="#F0B48F" data-fill="skin" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M79.11 9.26C80.26 6.1 83.27 4 86.63 4C89.99 4 93 6.1 94.15 9.26" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+</g>
+<g id="head">
+  <path d="M0 -99C22.17 -99 42.46 -91.28 57.65 -72.24C72.84 -53.21 79 -27.79 79 0C79 27.79 72.84 53.21 57.65 72.24C42.46 91.28 22.17 99 0 99C-22.17 99 -42.46 91.28 -57.65 72.24C-72.84 53.21 -79 27.79 -79 0C-79 -27.79 -72.84 -53.21 -57.65 -72.24C-42.46 -91.28 -22.17 -99 0 -99Z" fill="#F0B48F" data-fill="skin" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+</g>
+</svg>

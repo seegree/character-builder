@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-135 -158 270 336" width="540" height="672">
+<title>HM4 Horseshoe</title>
+<g id="front">
+  <path d="M-92 -50C-95.67 -47 -101 -35 -102 -26C-103 -17 -100 -3 -98 4C-96 11 -92.5 16.33 -90 16C-87.5 15.67 -84 8.33 -83 2C-82 -4.33 -84.5 -14.33 -84 -22C-83.5 -29.67 -78.67 -39.33 -80 -44C-81.33 -48.67 -88.33 -53 -92 -50Z" fill="#4A2320" data-fill="hair" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M92 -50C95.67 -47 101 -35 102 -26C103 -17 100 -3 98 4C96 11 92.5 16.33 90 16C87.5 15.67 84 8.33 83 2C82 -4.33 84.5 -14.33 84 -22C83.5 -29.67 78.67 -39.33 80 -44C81.33 -48.67 88.33 -53 92 -50Z" fill="#4A2320" data-fill="hair" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-10 -86C-16 -104 -4 -112 -8 -122" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M4 -87C2 -104 14 -110 10 -122" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M16 -84C26 -98 34 -100 36 -110" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+</g>
+</svg>

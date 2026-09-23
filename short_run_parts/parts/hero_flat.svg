@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-160 30 320 571" width="640" height="1142">
+<title>hero</title>
+<g id="00_leg">
+  <path d="M-27.04 380L-33.04 530" fill="none" stroke="#241820" stroke-width="28" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-27.04 380L-33.04 530" fill="none" stroke="#F0B48F" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" data-stroke="skin"/>
+</g>
+<g id="01_pant">
+  <path d="M-27.04 380L-30.76 473" fill="none" stroke="#241820" stroke-width="32" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-27.04 380L-30.76 473" fill="none" stroke="#1F6F78" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" data-stroke="bottom"/>
+</g>
+<g id="02_band">
+  <path d="M-30.28 461L-30.76 473" fill="none" stroke="#241820" stroke-width="35" stroke-linecap="butt" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-30.28 461L-30.76 473" fill="none" stroke="#F2B632" stroke-width="23" stroke-linecap="butt" stroke-linejoin="round" data-stroke="accent"/>
+</g>
+<g id="03_shoe" transform="translate(-33.04 530)">
+  <path d="M13.44 13.44C19.41 19.04 14.93 32.11 13.44 38.08C11.95 44.05 12.32 47.23 4.48 49.28C-3.36 51.33 -20.91 50.77 -33.6 50.4C-46.29 50.03 -61.6 49.84 -71.68 47.04C-81.76 44.24 -92.21 39.2 -94.08 33.6C-95.95 28 -90.35 17.92 -82.88 13.44C-75.41 8.96 -59.36 8.21 -49.28 6.72C-39.2 5.23 -32.85 3.36 -22.4 4.48C-11.95 5.6 7.47 7.84 13.44 13.44Z" fill="#241820" data-fill="ink" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M21.28 -20.16C25.2 -11.57 24.83 21.84 21.28 31.36C17.73 40.88 6.91 38.08 0 36.96C-6.91 35.84 -16.8 32.29 -20.16 24.64C-23.52 16.99 -23.15 -1.49 -20.16 -8.96C-17.17 -16.43 -9.15 -18.29 -2.24 -20.16C4.67 -22.03 17.36 -28.75 21.28 -20.16Z" fill="#F8F0DF" data-fill="stock" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-4.03 -5.6C-4.03 -4.12 -5.24 -2.91 -6.72 -2.91C-8.2 -2.91 -9.41 -4.12 -9.41 -5.6C-9.41 -7.08 -8.2 -8.29 -6.72 -8.29C-5.24 -8.29 -4.03 -7.08 -4.03 -5.6Z" fill="#241820" data-fill="ink"/>
+  <path d="M-4.03 8.96C-4.03 10.44 -5.24 11.65 -6.72 11.65C-8.2 11.65 -9.41 10.44 -9.41 8.96C-9.41 7.48 -8.2 6.27 -6.72 6.27C-5.24 6.27 -4.03 7.48 -4.03 8.96Z" fill="#241820" data-fill="ink"/>
+  <path d="M-4.03 23.52C-4.03 25 -5.24 26.21 -6.72 26.21C-8.2 26.21 -9.41 25 -9.41 23.52C-9.41 22.04 -8.2 20.83 -6.72 20.83C-5.24 20.83 -4.03 22.04 -4.03 23.52Z" fill="#241820" data-fill="ink"/>
+</g>
+<g id="04_leg">
+  <path d="M27.04 380L33.04 530" fill="none" stroke="#241820" stroke-width="28" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M27.04 380L33.04 530" fill="none" stroke="#F0B48F" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" data-stroke="skin"/>
+</g>
+<g id="05_pant">
+  <path d="M27.04 380L30.76 473" fill="none" stroke="#241820" stroke-width="32" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M27.04 380L30.76 473" fill="none" stroke="#1F6F78" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" data-stroke="bottom"/>
+</g>
+<g id="06_band">
+  <path d="M30.28 461L30.76 473" fill="none" stroke="#241820" stroke-width="35" stroke-linecap="butt" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M30.28 461L30.76 473" fill="none" stroke="#F2B632" stroke-width="23" stroke-linecap="butt" stroke-linejoin="round" data-stroke="accent"/>
+</g>
+<g id="07_shoe" transform="translate(33.04 530)">
+  <path d="M-13.44 13.44C-19.41 19.04 -14.93 32.11 -13.44 38.08C-11.95 44.05 -12.32 47.23 -4.48 49.28C3.36 51.33 20.91 50.77 33.6 50.4C46.29 50.03 61.6 49.84 71.68 47.04C81.76 44.24 92.21 39.2 94.08 33.6C95.95 28 90.35 17.92 82.88 13.44C75.41 8.96 59.36 8.21 49.28 6.72C39.2 5.23 32.85 3.36 22.4 4.48C11.95 5.6 -7.47 7.84 -13.44 13.44Z" fill="#241820" data-fill="ink" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-21.28 -20.16C-25.2 -11.57 -24.83 21.84 -21.28 31.36C-17.73 40.88 -6.91 38.08 0 36.96C6.91 35.84 16.8 32.29 20.16 24.64C23.52 16.99 23.15 -1.49 20.16 -8.96C17.17 -16.43 9.15 -18.29 2.24 -20.16C-4.67 -22.03 -17.36 -28.75 -21.28 -20.16Z" fill="#F8F0DF" data-fill="stock" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M4.03 -5.6C4.03 -4.12 5.24 -2.91 6.72 -2.91C8.2 -2.91 9.41 -4.12 9.41 -5.6C9.41 -7.08 8.2 -8.29 6.72 -8.29C5.24 -8.29 4.03 -7.08 4.03 -5.6Z" fill="#241820" data-fill="ink"/>
+  <path d="M4.03 8.96C4.03 10.44 5.24 11.65 6.72 11.65C8.2 11.65 9.41 10.44 9.41 8.96C9.41 7.48 8.2 6.27 6.72 6.27C5.24 6.27 4.03 7.48 4.03 8.96Z" fill="#241820" data-fill="ink"/>
+  <path d="M4.03 23.52C4.03 25 5.24 26.21 6.72 26.21C8.2 26.21 9.41 25 9.41 23.52C9.41 22.04 8.2 20.83 6.72 20.83C5.24 20.83 4.03 22.04 4.03 23.52Z" fill="#241820" data-fill="ink"/>
+</g>
+<g id="08_arm">
+  <path d="M-41 278L-73.06 442.91" fill="none" stroke="#241820" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-41 278L-73.06 442.91" fill="none" stroke="#F0B48F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" data-stroke="skin"/>
+</g>
+<g id="09_sleeve">
+  <path d="M-41 278L-73.06 442.91" fill="none" stroke="#241820" stroke-width="26" stroke-linecap="butt" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-41 278L-73.06 442.91" fill="none" stroke="#E4572E" stroke-width="14" stroke-linecap="butt" stroke-linejoin="round" data-stroke="top"/>
+</g>
+<g id="10_cuff">
+  <path d="M-61.28 445.2L-84.84 440.62" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+</g>
+<g id="11_hand" transform="translate(-73.06 442.91)">
+  <path d="M10.17 4.18L10.17 4.18C6.58 6.69 5.71 11.63 8.22 15.22L14.52 24.22C17.03 27.8 21.97 28.68 25.56 26.16L25.56 26.16C29.15 23.65 30.02 18.71 27.51 15.12L21.21 6.12C18.7 2.54 13.75 1.67 10.17 4.18Z" fill="#F8F0DF" data-fill="stock" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M13.91 -5.19C13.91 -5.19 20.86 6.09 22.42 13.04C23.98 19.99 25.36 30.28 23.25 36.49C21.14 42.7 14.97 49.29 9.78 50.3C4.59 51.31 -3.61 47.51 -7.89 42.55C-12.17 37.58 -14.74 27.52 -15.9 20.49C-17.06 13.47 -14.84 0.4 -14.84 0.4C-14.84 0.4 13.91 -5.19 13.91 -5.19Z" fill="#F8F0DF" data-fill="stock" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M5.92 11.28L8.71 25.65" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-4.86 13.37L-2.06 27.74" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+</g>
+<g id="12_arm">
+  <path d="M41 278L73.06 442.91" fill="none" stroke="#241820" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M41 278L73.06 442.91" fill="none" stroke="#F0B48F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" data-stroke="skin"/>
+</g>
+<g id="13_sleeve">
+  <path d="M41 278L73.06 442.91" fill="none" stroke="#241820" stroke-width="26" stroke-linecap="butt" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M41 278L73.06 442.91" fill="none" stroke="#E4572E" stroke-width="14" stroke-linecap="butt" stroke-linejoin="round" data-stroke="top"/>
+</g>
+<g id="14_cuff">
+  <path d="M84.84 440.62L61.28 445.2" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+</g>
+<g id="15_hand" transform="translate(73.06 442.91)">
+  <path d="M-7.86 7.68L-7.86 7.68C-3.59 8.67 -0.93 12.92 -1.92 17.19L-4.39 27.89C-5.37 32.16 -9.63 34.82 -13.9 33.83L-13.9 33.83C-18.17 32.85 -20.83 28.59 -19.84 24.32L-17.37 13.62C-16.39 9.36 -12.13 6.7 -7.86 7.68Z" fill="#F8F0DF" data-fill="stock" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-14.84 0.4C-14.84 0.4 -17.06 13.47 -15.9 20.49C-14.74 27.52 -12.17 37.58 -7.89 42.55C-3.61 47.51 4.59 51.31 9.78 50.3C14.97 49.29 21.14 42.7 23.25 36.49C25.36 30.28 23.98 19.99 22.42 13.04C20.86 6.09 13.91 -5.19 13.91 -5.19C13.91 -5.19 -14.84 0.4 -14.84 0.4Z" fill="#F8F0DF" data-fill="stock" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-1.26 12.67L1.53 27.05" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M9.51 10.58L12.31 24.95" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+</g>
+<g id="16_neck">
+  <path d="M0 232L0 264" fill="none" stroke="#241820" stroke-width="26" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M0 232L0 264" fill="none" stroke="#F0B48F" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" data-stroke="skin"/>
+</g>
+<g id="17_torso">
+  <path d="M0 250C6 250 12.17 249 18 250C23.83 251 29.67 252.67 35 256C40.33 259.33 47.83 258.87 50 270C52.17 281.13 47.67 306.13 48 322.8C48.33 339.47 53.59 358.8 52 370C50.41 381.2 47.13 385.83 38.46 390C29.79 394.17 12.82 395 0 395C-12.82 395 -29.79 394.17 -38.46 390C-47.13 385.83 -50.41 381.2 -52 370C-53.59 358.8 -48.33 339.47 -48 322.8C-47.67 306.13 -52.17 281.13 -50 270C-47.83 258.87 -40.33 259.33 -35 256C-29.67 252.67 -23.83 251 -18 250C-12.17 249 -6 250 0 250Z" fill="#F0B48F" data-fill="skin" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+</g>
+<g id="18_pelvis">
+  <path d="M0 356C14.4 356 34.2 354.67 43.2 358C52.2 361.33 53.1 368.67 54 376C54.9 383.33 52.09 395.67 48.6 402C45.11 408.33 41.14 413 33.04 414C24.94 415 11.01 408 0 408C-11.01 408 -24.94 415 -33.04 414C-41.14 413 -45.11 408.33 -48.6 402C-52.09 395.67 -54.9 383.33 -54 376C-53.1 368.67 -52.2 361.33 -43.2 358C-34.2 354.67 -14.4 356 0 356Z" fill="#1F6F78" data-fill="bottom" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+</g>
+<g id="19_top">
+  <path d="M0 250C6.83 250 14.25 249 20.5 250C26.75 251 32.17 252.67 37.5 256C42.83 259.33 50.33 258.87 52.5 270C54.67 281.13 50.17 306.13 50.5 322.8C50.83 339.47 55.89 359.8 54.5 370C53.11 380.2 51.26 380.83 42.17 384C33.09 387.17 14.06 389 0 389C-14.06 389 -33.09 387.17 -42.17 384C-51.26 380.83 -53.11 380.2 -54.5 370C-55.89 359.8 -50.83 339.47 -50.5 322.8C-50.17 306.13 -54.67 281.13 -52.5 270C-50.33 258.87 -42.83 259.33 -37.5 256C-32.17 252.67 -26.75 251 -20.5 250C-14.25 249 -6.83 250 0 250Z" fill="#E4572E" data-fill="top" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+</g>
+<g id="20_stripes">
+  <path d="M-51.72 292L51.72 292L51.52 296L51.32 300L51.13 304L50.95 308L-50.95 308L-51.13 304L-51.32 300L-51.52 296L-51.72 292Z" fill="#F2B632" data-fill="accent"/>
+  <path d="M-51.22 334L51.22 334L51.6 338L52.02 342L52.46 346L52.89 350L-52.89 350L-52.46 346L-52.02 342L-51.6 338L-51.22 334Z" fill="#F2B632" data-fill="accent"/>
+  <path d="M-51.72 292L51.72 292" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="butt" stroke-linejoin="round" data-stroke="ink"/>
+</g>
+<g id="21_neckline">
+  <path d="M22 252C22 259.18 12.15 265 0 265C-12.15 265 -22 259.18 -22 252Z" fill="#F0B48F" data-fill="skin" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+</g>
+<g id="22_h" transform="translate(0 148)">
+  <path d="M-110.26 12C-110.26 21.39 -102.65 29 -93.26 29C-83.88 29 -76.26 21.39 -76.26 12C-76.26 2.61 -83.88 -5 -93.26 -5C-102.65 -5 -110.26 2.61 -110.26 12Z" fill="#F0B48F" data-fill="skin" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-86.75 9.26C-87.9 6.1 -90.9 4 -94.26 4C-97.63 4 -100.63 6.1 -101.78 9.26" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M110.26 12C110.26 21.39 102.65 29 93.26 29C83.88 29 76.26 21.39 76.26 12C76.26 2.61 83.88 -5 93.26 -5C102.65 -5 110.26 2.61 110.26 12Z" fill="#F0B48F" data-fill="skin" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M86.75 9.26C87.9 6.1 90.9 4 94.26 4C97.63 4 100.63 6.1 101.78 9.26" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+</g>
+<g id="23_h" transform="translate(0 148)">
+  <path d="M0 -92C26.13 -92 51.02 -82.75 67.95 -65.05C84.87 -47.36 90.2 -25.02 88 0C85.8 25.02 73.43 47.36 56.51 65.05C39.58 82.75 21.73 92 0 92C-21.73 92 -39.58 82.75 -56.51 65.05C-73.43 47.36 -85.8 25.02 -88 0C-90.2 -25.02 -84.87 -47.36 -67.95 -65.05C-51.02 -82.75 -26.13 -92 0 -92Z" fill="#F0B48F" data-fill="skin" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+</g>
+<g id="24_h" transform="translate(0 148)">
+  <path d="M-47.7 26C-47.7 27.27 -48.73 28.3 -50 28.3C-51.27 28.3 -52.3 27.27 -52.3 26C-52.3 24.73 -51.27 23.7 -50 23.7C-48.73 23.7 -47.7 24.73 -47.7 26Z" fill="#241820" data-fill="ink"/>
+  <path d="M-57.7 22C-57.7 23.27 -58.73 24.3 -60 24.3C-61.27 24.3 -62.3 23.27 -62.3 22C-62.3 20.73 -61.27 19.7 -60 19.7C-58.73 19.7 -57.7 20.73 -57.7 22Z" fill="#241820" data-fill="ink"/>
+  <path d="M-63.7 32C-63.7 33.27 -64.73 34.3 -66 34.3C-67.27 34.3 -68.3 33.27 -68.3 32C-68.3 30.73 -67.27 29.7 -66 29.7C-64.73 29.7 -63.7 30.73 -63.7 32Z" fill="#241820" data-fill="ink"/>
+  <path d="M-51.7 37C-51.7 38.27 -52.73 39.3 -54 39.3C-55.27 39.3 -56.3 38.27 -56.3 37C-56.3 35.73 -55.27 34.7 -54 34.7C-52.73 34.7 -51.7 35.73 -51.7 37Z" fill="#241820" data-fill="ink"/>
+  <path d="M-41.7 32C-41.7 33.27 -42.73 34.3 -44 34.3C-45.27 34.3 -46.3 33.27 -46.3 32C-46.3 30.73 -45.27 29.7 -44 29.7C-42.73 29.7 -41.7 30.73 -41.7 32Z" fill="#241820" data-fill="ink"/>
+  <path d="M52.3 26C52.3 27.27 51.27 28.3 50 28.3C48.73 28.3 47.7 27.27 47.7 26C47.7 24.73 48.73 23.7 50 23.7C51.27 23.7 52.3 24.73 52.3 26Z" fill="#241820" data-fill="ink"/>
+  <path d="M62.3 22C62.3 23.27 61.27 24.3 60 24.3C58.73 24.3 57.7 23.27 57.7 22C57.7 20.73 58.73 19.7 60 19.7C61.27 19.7 62.3 20.73 62.3 22Z" fill="#241820" data-fill="ink"/>
+  <path d="M68.3 32C68.3 33.27 67.27 34.3 66 34.3C64.73 34.3 63.7 33.27 63.7 32C63.7 30.73 64.73 29.7 66 29.7C67.27 29.7 68.3 30.73 68.3 32Z" fill="#241820" data-fill="ink"/>
+  <path d="M56.3 37C56.3 38.27 55.27 39.3 54 39.3C52.73 39.3 51.7 38.27 51.7 37C51.7 35.73 52.73 34.7 54 34.7C55.27 34.7 56.3 35.73 56.3 37Z" fill="#241820" data-fill="ink"/>
+  <path d="M46.3 32C46.3 33.27 45.27 34.3 44 34.3C42.73 34.3 41.7 33.27 41.7 32C41.7 30.73 42.73 29.7 44 29.7C45.27 29.7 46.3 30.73 46.3 32Z" fill="#241820" data-fill="ink"/>
+</g>
+<g id="25_h" transform="translate(0 148)">
+  <path d="M12.5 32C12.5 38.9 6.9 44.5 0 44.5C-6.9 44.5 -12.5 38.9 -12.5 32C-12.5 25.1 -6.9 19.5 0 19.5C6.9 19.5 12.5 25.1 12.5 32Z" fill="#F1B568" data-fill="blush" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-1.4 28.5C-1.4 29.94 -2.56 31.1 -4 31.1C-5.44 31.1 -6.6 29.94 -6.6 28.5C-6.6 27.06 -5.44 25.9 -4 25.9C-2.56 25.9 -1.4 27.06 -1.4 28.5Z" fill="#F8F0DF" data-fill="stock" data-knockout="1"/>
+</g>
+<g id="26_h" transform="translate(0 148)">
+  <path d="M-52 8C-52 21.25 -44.84 32 -36 32C-27.16 32 -20 21.25 -20 8C-20 -5.25 -27.16 -16 -36 -16C-44.84 -16 -52 -5.25 -52 8Z" fill="#F8F0DF" data-fill="stock" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-33 15L-42.74 11.07C-44.58 15.63 -43 20.86 -38.95 23.65C-34.89 26.44 -29.44 26.04 -25.84 22.68C-22.24 19.32 -21.45 13.91 -23.95 9.67C-26.45 5.43 -31.56 3.49 -36.24 5.01Z" fill="#241820" data-fill="ink"/>
+  <path d="M52 8C52 21.25 44.84 32 36 32C27.16 32 20 21.25 20 8C20 -5.25 27.16 -16 36 -16C44.84 -16 52 -5.25 52 8Z" fill="#F8F0DF" data-fill="stock" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M33 15L42.74 11.07C44.58 15.63 43 20.86 38.95 23.65C34.89 26.44 29.44 26.04 25.84 22.68C22.24 19.32 21.45 13.91 23.95 9.67C26.45 5.43 31.56 3.49 36.24 5.01Z" fill="#241820" data-fill="ink"/>
+</g>
+<g id="27_h" transform="translate(0 148)">
+  <path d="M-23.65 -28.3L-45.27 -36.16C-47.6 -37.01 -50.19 -35.81 -51.04 -33.47L-51.04 -33.47C-51.89 -31.14 -50.68 -28.55 -48.35 -27.7L-26.73 -19.84C-24.4 -18.99 -21.81 -20.19 -20.96 -22.53L-20.96 -22.53C-20.11 -24.86 -21.32 -27.45 -23.65 -28.3Z" fill="#241820" data-fill="ink"/>
+  <path d="M22 -35C28 -51 44 -51 50 -35" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+</g>
+<g id="28_h" transform="translate(0 148)">
+  <path d="M-19 56C-8 60 8 58 21 47" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M21 47C24 44 27 45 28 47" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+</g>
+<g id="29_h" transform="translate(0 148)">
+  <path d="M-94.96 6C-94.96 6 -108.29 -30.27 -105.01 -48.6C-101.53 -66.93 -89.91 -90 -71.81 -100C-53.5 -110 -23.94 -112 0 -112C23.94 -112 53.5 -109.67 71.81 -100C89.95 -90.33 100.54 -67.3 105.25 -50.8C109.75 -34.3 103.96 -13 101.88 -4C99.83 5 93.06 6 93.06 6C93.06 6 82.95 2.67 80.74 -4C78.48 -10.67 79.67 -35.4 79.67 -35.4C79.67 -35.4 65.42 -31 65.42 -31C65.42 -31 52.51 -48.6 52.51 -48.6C52.51 -48.6 35.68 -31 35.68 -31C35.68 -31 20.33 -55.2 20.33 -55.2C20.33 -55.2 1.99 -35.4 1.99 -35.4C1.99 -35.4 -14.27 -57.4 -14.27 -57.4C-14.27 -57.4 -31.94 -37.6 -31.94 -37.6C-31.94 -37.6 -49.02 -59.6 -49.02 -59.6C-49.02 -59.6 -66.03 -39.8 -66.03 -39.8C-66.03 -39.8 -80.07 -52.27 -82.61 -46.4C-85.11 -40.53 -80.93 -6 -80.93 -6C-80.93 -6 -94.96 6 -94.96 6Z" fill="#4A2320" data-fill="hair" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-42.24 -102C-10.56 -110 31.68 -106 69.54 -90" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-68.35 -90.06L-51.24 -94.75C-49.83 -95.13 -48.37 -94.36 -47.97 -93.03L-47.97 -93.03C-47.55 -91.7 -48.29 -90.32 -49.67 -89.94L-66.54 -85.18C-67.9 -84.76 -69.41 -85.6 -69.91 -86.97L-69.91 -86.97C-70.42 -88.3 -69.72 -89.68 -68.35 -90.06Z" fill="#F8F0DF" data-fill="stock" data-knockout="1"/>
+</g>
+</svg>

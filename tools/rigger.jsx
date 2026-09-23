@@ -181,8 +181,12 @@ if (typeof app === "undefined" || !app.project) {
         { armL:[-40,-300], armR:[90,-40],  legL:[0,0],    legR:[70,-30] },   // wave
         { armL:[-120,-60], armR:[120,-60], legL:[-30,0],  legR:[30,0]   },   // shrug/out
         { armL:[-30,-260], armR:[30,-260], legL:[-20,0],  legR:[20,0]   },   // cheer
-        { armL:[60,-30],   armR:[110,-120],legL:[-40,-40],legR:[50,0]   },   // stride
-        { armL:[-110,-120],armR:[60,-30],  legL:[-50,0],  legR:[40,-40] }    // stride-mirror
+        // the reaching arm's own hand must clear the SAME-side leg when it
+        // lifts — a small same-side arm offset stays parked near the hip
+        // right where the lifted knee ends up (looked like a bite out of
+        // the pant leg). Swing the passive arm back/away instead.
+        { armL:[-40,20],   armR:[110,-120],legL:[-40,-40],legR:[50,0]   },   // stride
+        { armL:[-110,-120],armR:[40,20],   legL:[-50,0],  legR:[40,-40] }    // stride-mirror
     ];
     function findLayer(comp,nm){ for(var i=1;i<=comp.numLayers;i++) if(comp.layer(i).name===nm) return comp.layer(i); return null; }
     // read the rest position stored on a controller by rig() ("CBREST x,y").

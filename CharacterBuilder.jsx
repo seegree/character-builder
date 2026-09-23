@@ -32,7 +32,7 @@
 
     // ---------- state ----------
     var S=CGEN.SLOTS;
-    var choice=null, locked={}, opts={grain:true, shade:true, blink:false}, charComp=null, rigged=false, lastSeed=0;
+    var choice=null, locked={}, opts={finish:"HOUSE", blink:false}, charComp=null, rigged=false, lastSeed=0;
     function prng(seed){ return new CGEN.PRNG(seed>>>0); }
     function randSeed(){ return Math.floor(Math.random()*4294967295)>>>0; }
     function slotDef(k){ for(var i=0;i<S.length;i++) if(S[i].key===k) return S[i]; return null; }
@@ -45,21 +45,48 @@
             if(it instanceof CompItem && it.name==="Character"){ charComp=it; return it; } }
         charComp=app.project.items.addComp("Character",1000,1400,1,5,24); return charComp;
     }
+    // AE's ScriptUI silently swallows exceptions thrown from a dockable
+    // panel's event handlers — no dialog, no console, the click just
+    // appears to do nothing. Every entry point below must catch and
+    // surface its own errors. beginUndoGroup/endUndoGroup must stay
+    // balanced even on failure, or AE is left with a stuck open undo
+    // group and every later action starts silently misbehaving too.
     function rebuild(){
         app.beginUndoGroup("Character Builder: build");
-        ensureChoice();
-        var comp=getComp();
-        while(comp.numLayers>0){ var ly=comp.layer(1); if(ly.locked) ly.locked=false; ly.remove(); }
-        CGEN.buildChoice(comp, choice, opts);
-        rigged=false;
-        try{ comp.openInViewer(); }catch(e){}
-        app.endUndoGroup();
+        try{
+            ensureChoice();
+            var comp=getComp();
+            while(comp.numLayers>0){ var ly=comp.layer(1); if(ly.locked) ly.locked=false; ly.remove(); }
+            CGEN.buildChoice(comp, choice, opts);
+            rigged=false;
+            try{ comp.openInViewer(); }catch(e){}
+        }catch(err){
+            alert("Character Builder: build failed\n"+err.toString()+"\nline "+err.line+"\n"+(err.fileName||""));
+        }finally{
+            app.endUndoGroup();
+        }
     }
-    function generate(){ ensureChoice(); lastSeed=randSeed();
-        choice=CGEN.rerollChoice(choice, locked, prng(lastSeed)); rebuild(); }
-    function cycle(key,dir){ ensureChoice(); var d=slotDef(key);
-        choice[key]=(choice[key]+dir+d.vals.length)%d.vals.length;
-        locked[key]=true; if(lockChecks[key]) lockChecks[key].value=true; rebuild(); }
+    function generate(){
+        try{
+            ensureChoice(); lastSeed=randSeed();
+            choice=CGEN.rerollChoice(choice, locked, prng(lastSeed));
+        }catch(err){
+            alert("Character Builder: generate failed\n"+err.toString()+"\nline "+err.line+"\n"+(err.fileName||""));
+            return;
+        }
+        rebuild();
+    }
+    function cycle(key,dir){
+        try{
+            ensureChoice(); var d=slotDef(key);
+            choice[key]=(choice[key]+dir+d.vals.length)%d.vals.length;
+            locked[key]=true; if(lockChecks[key]) lockChecks[key].value=true;
+        }catch(err){
+            alert("Character Builder: cycle failed\n"+err.toString()+"\nline "+err.line+"\n"+(err.fileName||""));
+            return;
+        }
+        rebuild();
+    }
     function doRig(){ var comp=getComp(); app.beginUndoGroup("Character Builder: rig");
         try{ CBRIG.rig(comp); rigged=true; }catch(e){ alert("Rig failed: "+e.toString()); } app.endUndoGroup(); }
     function doPose(){ var comp=getComp(); app.beginUndoGroup("Character Builder: pose");
@@ -74,20 +101,29 @@
     // height, abbreviated labels, post-ops on one row, set-once prefs
     // (Grain/Shading/Blink/Seed) tucked into Settings, one accent action.
     var pal=(thisObj instanceof Panel)?thisObj:new Window("palette","Character Builder",undefined,{resizeable:true});
-    pal.alignChildren=["fill","top"]; pal.spacing=2; pal.margins=6;
+    pal.alignChildren=["fill","top"]; pal.spacing=4; pal.margins=6;
 
+    // 3 columns x 5 rows: Form (palette/head/body/hair/ears), Face
+    // (eyes/brows/nose/mouth/facial), Worn (glasses/top/bottom/shoes/accy).
+    // S is already grouped in that order (see character_gen.jsx SLOTS_DEF).
+    var grid=pal.add("group"); grid.orientation="row"; grid.spacing=8; grid.alignChildren=["fill","top"];
+    var COLS=[["Form",S.slice(0,5)], ["Face",S.slice(5,10)], ["Worn",S.slice(10,15)]];
     var lockChecks={};
-    for(var i=0;i<S.length;i++){ (function(slot){
-        var row=pal.add("group"); row.orientation="row"; row.spacing=2; row.alignChildren=["left","center"];
-        var nm=row.add("statictext",undefined,slot.label); nm.preferredSize=[58,18];
-        var lb=row.add("button",undefined,"◀"); lb.preferredSize=[22,19]; lb.helpTip="Previous "+slot.label;
-        var rb=row.add("button",undefined,"▶"); rb.preferredSize=[22,19]; rb.helpTip="Next "+slot.label;
-        var lk=row.add("checkbox",undefined,undefined); lk.helpTip="Lock "+slot.label+" (kept on Generate)";
-        lockChecks[slot.key]=lk;
-        lb.onClick=function(){ cycle(slot.key,-1); };
-        rb.onClick=function(){ cycle(slot.key,1); };
-        lk.onClick=function(){ locked[slot.key]=lk.value; };
-    })(S[i]); }
+    for(var c=0;c<COLS.length;c++){
+        var col=grid.add("group"); col.orientation="column"; col.spacing=2; col.alignChildren=["fill","top"];
+        var colSlots=COLS[c][1];
+        for(var i=0;i<colSlots.length;i++){ (function(slot){
+            var row=col.add("group"); row.orientation="row"; row.spacing=2; row.alignChildren=["left","center"];
+            var nm=row.add("statictext",undefined,slot.label); nm.preferredSize=[44,18]; nm.helpTip=slot.label;
+            var lb=row.add("button",undefined,"◀"); lb.preferredSize=[20,19]; lb.helpTip="Previous "+slot.label;
+            var rb=row.add("button",undefined,"▶"); rb.preferredSize=[20,19]; rb.helpTip="Next "+slot.label;
+            var lk=row.add("checkbox",undefined,undefined); lk.helpTip="Lock "+slot.label+" (kept on Generate)";
+            lockChecks[slot.key]=lk;
+            lb.onClick=function(){ cycle(slot.key,-1); };
+            rb.onClick=function(){ cycle(slot.key,1); };
+            lk.onClick=function(){ locked[slot.key]=lk.value; };
+        })(colSlots[i]); }
+    }
 
     // one accent action (full width), then post-ops on a single compact row
     var gen=pal.add("button",undefined,"Generate"); gen.preferredSize.height=30; gen.helpTip="Reroll every unlocked slot"; gen.onClick=generate;
@@ -100,10 +136,11 @@
 
     setBtn.onClick=function(){
         var w=new Window("dialog","Settings"); w.alignChildren=["fill","top"]; w.margins=14; w.spacing=8;
-        var tgl=w.add("group"); tgl.orientation="row"; tgl.spacing=14;
-        var cGrain=tgl.add("checkbox",undefined,"Grain"); cGrain.value=opts.grain;
-        var cShade=tgl.add("checkbox",undefined,"Shading"); cShade.value=opts.shade;
-        var cBlink=tgl.add("checkbox",undefined,"Blink"); cBlink.value=opts.blink;
+        var fg=w.add("group"); fg.orientation="row"; fg.spacing=8; fg.add("statictext",undefined,"Finish");
+        var finishList=fg.add("dropdownlist",undefined,CGEN.FINISH_PRESETS);
+        for(var fi=0;fi<CGEN.FINISH_PRESETS.length;fi++) if(CGEN.FINISH_PRESETS[fi]===opts.finish) finishList.selection=fi;
+        if(finishList.selection==null) finishList.selection=0;
+        var cBlink=fg.add("checkbox",undefined,"Blink"); cBlink.value=opts.blink;
         w.add("panel").preferredSize=[240,1]; // hairline separator
         var g=w.add("group"); g.add("statictext",undefined,"Seed");
         var e=g.add("edittext",undefined,String(lastSeed)); e.characters=14;
@@ -111,8 +148,9 @@
         var b=w.add("group"); b.alignment="right";
         var ok=b.add("button",undefined,"Apply"); var close=b.add("button",undefined,"Close");
         ok.onClick=function(){
-            var changed=(cGrain.value!==opts.grain)||(cShade.value!==opts.shade)||(cBlink.value!==opts.blink);
-            opts.grain=cGrain.value; opts.shade=cShade.value; opts.blink=cBlink.value;
+            var newFinish=CGEN.FINISH_PRESETS[finishList.selection.index];
+            var changed=(newFinish!==opts.finish)||(cBlink.value!==opts.blink);
+            opts.finish=newFinish; opts.blink=cBlink.value;
             var v=parseInt(e.text,10);
             if(!isNaN(v) && (v>>>0)!==lastSeed){ loadSeed(v); }
             else if(changed){ rebuild(); }
@@ -124,6 +162,11 @@
 
     pal.layout.layout(true);
     pal.layout.resize();
+    // Protect the 3-column grid's natural width: AE will otherwise shrink
+    // the dock to whatever width it's given and clip the rightmost column
+    // instead of respecting a minimum (this bit us before with the
+    // Rig/Pose/Idle row — the fix there was the same: reserve the width).
+    try{ pal.minimumSize=[Math.max(pal.minimumSize.width,410), pal.minimumSize.height]; }catch(e){}
     if(pal instanceof Window){ pal.center(); pal.show(); }
 
     // test hook: lets a headless harness drive the panel's actions.

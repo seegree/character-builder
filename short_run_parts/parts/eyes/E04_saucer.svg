@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-118 -108 236 216" width="472" height="432">
+<title>E04 Saucer</title>
+<g id="E04">
+  <path d="M-59 8C-59 20.7 -48.7 31 -36 31C-23.3 31 -13 20.7 -13 8C-13 -4.7 -23.3 -15 -36 -15C-48.7 -15 -59 -4.7 -59 8Z" fill="#F8F0DF" data-fill="stock" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-49.5 10C-49.5 17.46 -43.46 23.5 -36 23.5C-28.54 23.5 -22.5 17.46 -22.5 10C-22.5 2.54 -28.54 -3.5 -36 -3.5C-43.46 -3.5 -49.5 2.54 -49.5 10Z" fill="#241820" data-fill="ink"/>
+  <path d="M-44.9 5C-44.9 7.43 -42.93 9.4 -40.5 9.4C-38.07 9.4 -36.1 7.43 -36.1 5C-36.1 2.57 -38.07 0.6 -40.5 0.6C-42.93 0.6 -44.9 2.57 -44.9 5Z" fill="#F8F0DF" data-fill="stock" data-knockout="1"/>
+  <path d="M59 8C59 20.7 48.7 31 36 31C23.3 31 13 20.7 13 8C13 -4.7 23.3 -15 36 -15C48.7 -15 59 -4.7 59 8Z" fill="#F8F0DF" data-fill="stock" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M49.5 10C49.5 17.46 43.46 23.5 36 23.5C28.54 23.5 22.5 17.46 22.5 10C22.5 2.54 28.54 -3.5 36 -3.5C43.46 -3.5 49.5 2.54 49.5 10Z" fill="#241820" data-fill="ink"/>
+  <path d="M44.9 5C44.9 7.43 42.93 9.4 40.5 9.4C38.07 9.4 36.1 7.43 36.1 5C36.1 2.57 38.07 0.6 40.5 0.6C42.93 0.6 44.9 2.57 44.9 5Z" fill="#F8F0DF" data-fill="stock" data-knockout="1"/>
+</g>
+</svg>

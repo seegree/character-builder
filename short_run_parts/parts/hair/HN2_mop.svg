@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-135 -158 270 336" width="540" height="672">
+<title>HN2 Mop</title>
+<g id="front">
+  <path d="M-96 10C-96 10 -107 -23 -102 -40C-97 -57 -83 -81.33 -66 -92C-49 -102.67 -22 -104 0 -104C22 -104 49 -102.67 66 -92C83 -81.33 97 -57 102 -40C107 -23 96 10 96 10C96 10 84 8 84 8C84 8 85.33 -11.67 80 -20C74.67 -28.33 61.33 -35 52 -42C42.67 -49 32.67 -57 24 -62C15.33 -67 0 -72 0 -72C0 -72 -15.33 -67 -24 -62C-32.67 -57 -42.67 -49 -52 -42C-61.33 -35 -74.67 -28.33 -80 -20C-85.33 -11.67 -84 8 -84 8C-84 8 -96 10 -96 10Z" fill="#4A2320" data-fill="hair" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M0 -102L0 -76" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-62.78 -87.51L-42.6 -93.3C-41.27 -93.68 -39.88 -92.91 -39.5 -91.58L-39.5 -91.58C-39.12 -90.26 -39.89 -88.87 -41.22 -88.49L-61.4 -82.7C-62.73 -82.32 -64.12 -83.09 -64.5 -84.42L-64.5 -84.42C-64.88 -85.74 -64.11 -87.13 -62.78 -87.51Z" fill="#F8F0DF" data-fill="stock" data-knockout="1"/>
+</g>
+</svg>

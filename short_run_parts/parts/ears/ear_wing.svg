@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-118 -108 236 216" width="472" height="432">
+<title>ear Wing</title>
+<g id="ears">
+  <path d="M-114.76 9.39C-111.29 23.32 -102.39 33.1 -94.89 31.23C-87.38 29.36 -84.12 16.55 -87.59 2.61C-91.07 -11.32 -99.96 -21.1 -107.47 -19.23C-114.97 -17.36 -118.23 -4.55 -114.76 9.39Z" fill="#F0B48F" data-fill="skin" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-95.27 4.92C-95.77 -0.82 -98.26 -5 -101.18 -5C-104.09 -5 -106.58 -0.82 -107.09 4.92" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M114.76 9.39C111.29 23.32 102.39 33.1 94.89 31.23C87.38 29.36 84.12 16.55 87.59 2.61C91.07 -11.32 99.96 -21.1 107.47 -19.23C114.97 -17.36 118.23 -4.55 114.76 9.39Z" fill="#F0B48F" data-fill="skin" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M95.27 4.92C95.77 -0.82 98.26 -5 101.18 -5C104.09 -5 106.58 -0.82 107.09 4.92" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+</g>
+</svg>

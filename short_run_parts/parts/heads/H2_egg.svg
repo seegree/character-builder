@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-118 -108 236 216" width="472" height="432">
+<title>H2 Egg</title>
+<g id="ears">
+  <path d="M-110.26 12C-110.26 21.39 -102.65 29 -93.26 29C-83.88 29 -76.26 21.39 -76.26 12C-76.26 2.61 -83.88 -5 -93.26 -5C-102.65 -5 -110.26 2.61 -110.26 12Z" fill="#F0B48F" data-fill="skin" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-86.75 9.26C-87.9 6.1 -90.9 4 -94.26 4C-97.63 4 -100.63 6.1 -101.78 9.26" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M110.26 12C110.26 21.39 102.65 29 93.26 29C83.88 29 76.26 21.39 76.26 12C76.26 2.61 83.88 -5 93.26 -5C102.65 -5 110.26 2.61 110.26 12Z" fill="#F0B48F" data-fill="skin" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M86.75 9.26C87.9 6.1 90.9 4 94.26 4C97.63 4 100.63 6.1 101.78 9.26" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+</g>
+<g id="head">
+  <path d="M0 -92C26.13 -92 51.02 -82.75 67.95 -65.05C84.87 -47.36 90.2 -25.02 88 0C85.8 25.02 73.43 47.36 56.51 65.05C39.58 82.75 21.73 92 0 92C-21.73 92 -39.58 82.75 -56.51 65.05C-73.43 47.36 -85.8 25.02 -88 0C-90.2 -25.02 -84.87 -47.36 -67.95 -65.05C-51.02 -82.75 -26.13 -92 0 -92Z" fill="#F0B48F" data-fill="skin" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+</g>
+</svg>

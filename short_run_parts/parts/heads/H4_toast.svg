@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-118 -108 236 216" width="472" height="432">
+<title>H4 Toast</title>
+<g id="ears">
+  <path d="M-114.95 12C-114.95 21.39 -107.34 29 -97.95 29C-88.56 29 -80.95 21.39 -80.95 12C-80.95 2.61 -88.56 -5 -97.95 -5C-107.34 -5 -114.95 2.61 -114.95 12Z" fill="#F0B48F" data-fill="skin" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-91.43 9.26C-92.58 6.1 -95.59 4 -98.95 4C-102.31 4 -105.32 6.1 -106.47 9.26" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M114.95 12C114.95 21.39 107.34 29 97.95 29C88.56 29 80.95 21.39 80.95 12C80.95 2.61 88.56 -5 97.95 -5C107.34 -5 114.95 2.61 114.95 12Z" fill="#F0B48F" data-fill="skin" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M91.43 9.26C92.58 6.1 95.59 4 98.95 4C102.31 4 105.32 6.1 106.47 9.26" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+</g>
+<g id="head">
+  <path d="M0 -80C28.37 -80 56.26 -80.23 73.76 -64.84C91.26 -49.46 91 -24.94 91 0C91 24.94 91.26 49.46 73.76 64.84C56.26 80.23 28.37 80 0 80C-28.37 80 -56.26 80.23 -73.76 64.84C-91.26 49.46 -91 24.94 -91 0C-91 -24.94 -91.26 -49.46 -73.76 -64.84C-56.26 -80.23 -28.37 -80 0 -80Z" fill="#F0B48F" data-fill="skin" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+</g>
+</svg>

@@ -1,0 +1,233 @@
+{
+ "stock": "#F8F0DF",
+ "blush": "mix(skin, accent, 0.42)",
+ "lens": "mix(ink, bg, 0.15)",
+ "skin_ramp": [
+  {
+   "id": "S1",
+   "name": "Shell",
+   "hex": "#F7D5B8"
+  },
+  {
+   "id": "S2",
+   "name": "Peach",
+   "hex": "#F0B48F"
+  },
+  {
+   "id": "S3",
+   "name": "Clay",
+   "hex": "#DC9668"
+  },
+  {
+   "id": "S4",
+   "name": "Sienna",
+   "hex": "#C07A4F"
+  },
+  {
+   "id": "S5",
+   "name": "Umber",
+   "hex": "#9B5F3D"
+  },
+  {
+   "id": "S6",
+   "name": "Cocoa",
+   "hex": "#7A4A30"
+  }
+ ],
+ "palettes": [
+  {
+   "id": "P1",
+   "name": "Marmalade",
+   "relationship": "Complementary pair",
+   "roles": {
+    "bg": "#F0DDB8",
+    "skin": "#F0B48F",
+    "hair": "#4A2320",
+    "top": "#E4572E",
+    "bottom": "#1F6F78",
+    "accent": "#F2B632",
+    "ink": "#241820"
+   },
+   "area_budget": {
+    "top": 38,
+    "bottom": 24,
+    "skin": 20,
+    "hair": 10,
+    "accent": 5,
+    "ink": 3
+   },
+   "note": "Vermilion top against teal bottom is the whole idea. Hair is the top colour in shadow (oxblood), so it never reads as a fifth hue. Accent is held back for tongue, iris and laces."
+  },
+  {
+   "id": "P2",
+   "name": "Two-Ink Funnies",
+   "relationship": "Two spot inks + overprint",
+   "roles": {
+    "bg": "#F1E7CF",
+    "skin": "#EEB29B",
+    "hair": "#1C2140",
+    "top": "#D6432F",
+    "bottom": "#2C55A5",
+    "accent": "#6A3F86",
+    "ink": "#1B1F3B"
+   },
+   "area_budget": {
+    "top": 36,
+    "bottom": 28,
+    "skin": 18,
+    "hair": 10,
+    "accent": 5,
+    "ink": 3
+   },
+   "note": "Only red and blue were on the press. Skin is red at roughly 40% tint, accent is where the two inks overlap (purple), and hair is the ink itself. Three real colours, six roles."
+  },
+  {
+   "id": "P3",
+   "name": "Night Shift",
+   "relationship": "Dark stock, one warm hue",
+   "roles": {
+    "bg": "#2A2550",
+    "skin": "#DC9668",
+    "hair": "#F2C14E",
+    "top": "#C9438C",
+    "bottom": "#5A3FA6",
+    "accent": "#F2C14E",
+    "ink": "#0E0B22"
+   },
+   "area_budget": {
+    "top": 32,
+    "bottom": 30,
+    "skin": 18,
+    "hair": 12,
+    "accent": 5,
+    "ink": 3
+   },
+   "note": "Printed on dark stock: violet carries the mass, magenta is the single saturated hit, and gold does double duty as hair and accent. The stock white (eyes, gloves) becomes the brightest thing on the sheet."
+  },
+  {
+   "id": "P4",
+   "name": "Bubblegum Ledger",
+   "relationship": "All-light fills, one dark",
+   "roles": {
+    "bg": "#F8D9D2",
+    "skin": "#F7D2B4",
+    "hair": "#3B1E3E",
+    "top": "#7CD1BC",
+    "bottom": "#F0819D",
+    "accent": "#FFD15C",
+    "ink": "#3B1E3E"
+   },
+   "area_budget": {
+    "top": 34,
+    "bottom": 28,
+    "skin": 18,
+    "hair": 12,
+    "accent": 5,
+    "ink": 3
+   },
+   "note": "Every fill lives in the top third of lightness. Plum ink is the only dark value, so it does all the structural work; hair is the ink. Sweet colour, sour line."
+  },
+  {
+   "id": "P5",
+   "name": "Moss & Mustard",
+   "relationship": "Analogous earth",
+   "roles": {
+    "bg": "#D8CFA9",
+    "skin": "#DC9668",
+    "hair": "#43301F",
+    "top": "#6C7B34",
+    "bottom": "#8F4B2E",
+    "accent": "#E2AE38",
+    "ink": "#24231A"
+   },
+   "area_budget": {
+    "top": 36,
+    "bottom": 26,
+    "skin": 18,
+    "hair": 12,
+    "accent": 5,
+    "ink": 3
+   },
+   "note": "Olive, rust and mustard all lean yellow, none is cleaner than about 60% saturation. Quiet on purpose: the drawing has to carry the character, not the colour."
+  },
+  {
+   "id": "P6",
+   "name": "Blueprint",
+   "relationship": "One hue in three values + a spark",
+   "roles": {
+    "bg": "#D6E2EE",
+    "skin": "#F0B48F",
+    "hair": "#0F1D3A",
+    "top": "#2A5CB8",
+    "bottom": "#86AADB",
+    "accent": "#FF6A3D",
+    "ink": "#0F1D3A"
+   },
+   "area_budget": {
+    "top": 36,
+    "bottom": 26,
+    "skin": 18,
+    "hair": 12,
+    "accent": 5,
+    "ink": 3
+   },
+   "note": "Navy ink, cobalt top, sky bottom, pale ground: one hue in four values. Orange appears only on the accent, so it reads as a signal. Hair is the ink."
+  },
+  {
+   "id": "P7",
+   "name": "Pine & Rosewater",
+   "relationship": "Muted complementary",
+   "roles": {
+    "bg": "#EBCDC2",
+    "skin": "#C07A4F",
+    "hair": "#1F2E28",
+    "top": "#2F7D62",
+    "bottom": "#D98595",
+    "accent": "#F1D27A",
+    "ink": "#1F2E28"
+   },
+   "area_budget": {
+    "top": 36,
+    "bottom": 26,
+    "skin": 18,
+    "hair": 12,
+    "accent": 5,
+    "ink": 3
+   },
+   "note": "Green against dusty rose, both held at mid value. The straw accent sits between them so it bridges rather than shouts. Hair and ink share one pine-black."
+  },
+  {
+   "id": "P8",
+   "name": "Lilac Hour",
+   "relationship": "Split-complement",
+   "roles": {
+    "bg": "#D9D2EE",
+    "skin": "#9B5F3D",
+    "hair": "#1A1030",
+    "top": "#F26B5B",
+    "bottom": "#6A63C9",
+    "accent": "#FFC94D",
+    "ink": "#1A1030"
+   },
+   "area_budget": {
+    "top": 34,
+    "bottom": 28,
+    "skin": 18,
+    "hair": 12,
+    "accent": 5,
+    "ink": 3
+   },
+   "note": "Coral and sun against periwinkle on a lilac ground. This is the deep-skin test palette: ink lines have to stay legible on S5, so ink is pushed to the darkest value in the set."
+  }
+ ],
+ "assignment_rules": [
+  "hair in {hair, ink, accent}",
+  "top and bottom may swap",
+  "shoes in {ink, accent, bottom, top}",
+  "glasses frames: ink",
+  "accent: tongue, iris, jewel, hem, laces, hat band",
+  "stock never recoloured",
+  "skin: any ramp step in any palette",
+  "wonk: at most one, by the generator"
+ ]
+}

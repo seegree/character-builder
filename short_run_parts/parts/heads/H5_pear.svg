@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-118 -108 236 216" width="472" height="432">
+<title>H5 Pear</title>
+<g id="ears">
+  <path d="M-112.57 12C-112.57 21.39 -104.96 29 -95.57 29C-86.18 29 -78.57 21.39 -78.57 12C-78.57 2.61 -86.18 -5 -95.57 -5C-104.96 -5 -112.57 2.61 -112.57 12Z" fill="#F0B48F" data-fill="skin" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-89.06 9.26C-90.21 6.1 -93.21 4 -96.57 4C-99.94 4 -102.94 6.1 -104.09 9.26" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M112.57 12C112.57 21.39 104.96 29 95.57 29C86.18 29 78.57 21.39 78.57 12C78.57 2.61 86.18 -5 95.57 -5C104.96 -5 112.57 2.61 112.57 12Z" fill="#F0B48F" data-fill="skin" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M89.06 9.26C90.21 6.1 93.21 4 96.57 4C99.94 4 102.94 6.1 104.09 9.26" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+</g>
+<g id="head">
+  <path d="M0 -87C20.5 -87 36.56 -80.22 53.29 -63.49C70.03 -46.76 83.08 -24.42 87 0C90.92 24.42 90.41 46.76 73.68 63.49C56.95 80.22 28.34 87 0 87C-28.34 87 -56.95 80.22 -73.68 63.49C-90.41 46.76 -90.92 24.42 -87 0C-83.08 -24.42 -70.03 -46.76 -53.29 -63.49C-36.56 -80.22 -20.5 -87 0 -87Z" fill="#F0B48F" data-fill="skin" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+</g>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-130 -20 150 90" width="300" height="180">
+<title>S2 Sneaker (ankle origin, left foot)</title>
+<g id="S2">
+  <path d="M14 4C17 10.33 17.33 23.33 16 30C14.67 36.67 15.33 41.33 6 44C-3.33 46.67 -24.67 46 -40 46C-55.33 46 -75.67 47 -86 44C-96.33 41 -101 34 -102 28C-103 22 -99.67 13 -92 8C-84.33 3 -67.33 0 -56 -2C-44.67 -4 -33 -3 -24 -4C-15 -5 -8.33 -9.33 -2 -8C4.33 -6.67 11 -2.33 14 4Z" fill="#E4572E" data-fill="top" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M16 32C22 33.5 15.33 42.5 6 45C-3.33 47.5 -24.67 47 -40 47C-55.33 47 -75.67 47.83 -86 45C-96.33 42.17 -104.67 32 -102 30C-99.33 28 -82 32 -70 33C-58 34 -44.33 36.17 -30 36C-15.67 35.83 10 30.5 16 32Z" fill="#F8F0DF" data-fill="stock" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-92 8C-97 11.67 -103 22 -102 28C-101 34 -91.33 41.33 -86 44C-80.67 46.67 -73.33 47 -70 44C-66.67 41 -65.67 32.33 -66 26C-66.33 19.67 -67.67 9 -72 6C-76.33 3 -87 4.33 -92 8Z" fill="#F8F0DF" data-fill="stock" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-30 -2L-32 16" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-14 -2L-16 16" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+</g>
+</svg>

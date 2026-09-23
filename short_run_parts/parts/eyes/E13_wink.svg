@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-118 -108 236 216" width="472" height="432">
+<title>E13 Wink</title>
+<g id="E13">
+  <path d="M-52 5C-48 20 -24 20 -20 5" fill="none" stroke="#241820" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-49 13L-55 19" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-38 17L-40 25" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M52 8C52 21.25 44.84 32 36 32C27.16 32 20 21.25 20 8C20 -5.25 27.16 -16 36 -16C44.84 -16 52 -5.25 52 8Z" fill="#F8F0DF" data-fill="stock" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M33 15L42.74 11.07C44.58 15.63 43 20.86 38.95 23.65C34.89 26.44 29.44 26.04 25.84 22.68C22.24 19.32 21.45 13.91 23.95 9.67C26.45 5.43 31.56 3.49 36.24 5.01Z" fill="#241820" data-fill="ink"/>
+</g>
+</svg>

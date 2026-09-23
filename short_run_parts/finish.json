@@ -1,0 +1,100 @@
+{
+ "units": "stage units, character 525 tall head-top to ground",
+ "crescent": {
+  "offset": [
+   -8,
+   -8
+  ],
+  "colour": "ink",
+  "blend": "multiply",
+  "opacity": 0.22
+ },
+ "registration": {
+  "warm": {
+   "offset": [
+    3.2,
+    2.0
+   ],
+   "roles": [
+    "skin",
+    "stock",
+    "blush",
+    "accent",
+    "lens"
+   ]
+  },
+  "base": {
+   "offset": [
+    -2.4,
+    3.0
+   ],
+   "roles": [
+    "top",
+    "bottom",
+    "hair",
+    "bg"
+   ]
+  },
+  "ink": [
+   0,
+   0
+  ]
+ },
+ "tooth": {
+  "noise": "fractal",
+  "frequency": 0.9,
+  "octaves": 2,
+  "threshold": 0.56,
+  "softness": 0.06,
+  "colour": "ink",
+  "blend": "multiply",
+  "opacity": 0.16
+ },
+ "dropout": {
+  "noise": "fractal",
+  "frequency": 0.3,
+  "octaves": 3,
+  "threshold": 0.76,
+  "softness": 0.05,
+  "colour": "stock",
+  "opacity": 0.8
+ },
+ "wobble": {
+  "noise": "fractal",
+  "frequency": 0.02,
+  "octaves": 2,
+  "displacement": 5.0
+ },
+ "presets": {
+  "OFF": {
+   "flat": true
+  },
+  "LIGHT": {
+   "shade_op": 0.16,
+   "shade_off": 6.0,
+   "reg": 0.5,
+   "tooth": 0.6,
+   "drop": 0.5,
+   "thr": 0.78,
+   "wob": 2.5
+  },
+  "HOUSE": {
+   "shade_op": 0.22,
+   "shade_off": 8.0,
+   "reg": 1.0,
+   "tooth": 1.0,
+   "drop": 1.0,
+   "thr": 0.76,
+   "wob": 5.0
+  },
+  "HEAVY": {
+   "shade_op": 0.3,
+   "shade_off": 10.0,
+   "reg": 2.0,
+   "tooth": 1.5,
+   "drop": 1.25,
+   "thr": 0.72,
+   "wob": 8.0
+  }
+ }
+}

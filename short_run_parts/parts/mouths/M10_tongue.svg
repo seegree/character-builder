@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-118 -108 236 216" width="472" height="432">
+<title>M10 Tongue</title>
+<g id="M10">
+  <path d="M8 49L8 49C12.42 49 16 52.58 16 57L16 67C16 71.42 12.42 75 8 75L8 75C3.58 75 0 71.42 0 67L0 57C0 52.58 3.58 49 8 49Z" fill="#F2B632" data-fill="accent" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M8 57L8 66" fill="none" stroke="#241820" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-22 48C-12 61 12 61 22 48" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M22 48L27 42" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+</g>
+</svg>

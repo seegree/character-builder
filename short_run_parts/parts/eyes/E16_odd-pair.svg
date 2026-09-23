@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-118 -108 236 216" width="472" height="432">
+<title>E16 Odd Pair</title>
+<g id="E16">
+  <path d="M-36 -3L-36 -3C-32.41 -3 -29.5 -0.09 -29.5 3.5L-29.5 12.5C-29.5 16.09 -32.41 19 -36 19L-36 19C-39.59 19 -42.5 16.09 -42.5 12.5L-42.5 3.5C-42.5 -0.09 -39.59 -3 -36 -3Z" fill="#241820" data-fill="ink"/>
+  <path d="M-31.6 3C-31.6 4.33 -32.67 5.4 -34 5.4C-35.33 5.4 -36.4 4.33 -36.4 3C-36.4 1.67 -35.33 0.6 -34 0.6C-32.67 0.6 -31.6 1.67 -31.6 3Z" fill="#F8F0DF" data-fill="stock" data-knockout="1"/>
+  <path d="M63 8C63 22.91 50.91 35 36 35C21.09 35 9 22.91 9 8C9 -6.91 21.09 -19 36 -19C50.91 -19 63 -6.91 63 8Z" fill="#F8F0DF" data-fill="stock" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M47 12C47 19.73 40.73 26 33 26C25.27 26 19 19.73 19 12C19 4.27 25.27 -2 33 -2C40.73 -2 47 4.27 47 12Z" fill="#241820" data-fill="ink"/>
+  <path d="M42.4 6C42.4 8.43 40.43 10.4 38 10.4C35.57 10.4 33.6 8.43 33.6 6C33.6 3.57 35.57 1.6 38 1.6C40.43 1.6 42.4 3.57 42.4 6Z" fill="#F8F0DF" data-fill="stock" data-knockout="1"/>
+</g>
+</svg>

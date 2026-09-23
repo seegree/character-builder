@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-130 -20 150 90" width="300" height="180">
+<title>S4 Boot (ankle origin, left foot)</title>
+<g id="S4">
+  <path d="M16 -34C16 -34 19.67 17 18 30C16.33 43 15.67 41.33 6 44C-3.67 46.67 -24.67 46 -40 46C-55.33 46 -75.67 47 -86 44C-96.33 41 -101 34 -102 28C-103 22 -99.67 12.67 -92 8C-84.33 3.33 -67 2 -56 0C-45 -2 -32.33 1.67 -26 -4C-19.67 -9.67 -18 -34 -18 -34C-18 -34 16 -34 16 -34Z" fill="#1F6F78" data-fill="bottom" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-13 -37L13 -37C15.76 -37 18 -34.76 18 -32L18 -28C18 -25.24 15.76 -23 13 -23L-13 -23C-15.76 -23 -18 -25.24 -18 -28L-18 -32C-18 -34.76 -15.76 -37 -13 -37Z" fill="#F8F0DF" data-fill="stock" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M16 32C22 33.33 15.33 42.5 6 45C-3.33 47.5 -24.67 47 -40 47C-55.33 47 -75.67 47.83 -86 45C-96.33 42.17 -104.67 31.83 -102 30C-99.33 28.17 -82 32.83 -70 34C-58 35.17 -44.33 37.33 -30 37C-15.67 36.67 10 30.67 16 32Z" fill="#241820" data-fill="ink" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-79.76 6.85L-60.94 4.2C-59.57 4.01 -58.31 4.96 -58.12 6.33L-58.12 6.33C-57.92 7.7 -58.88 8.96 -60.24 9.15L-79.06 11.8C-80.43 11.99 -81.69 11.04 -81.88 9.67L-81.88 9.67C-82.08 8.3 -81.12 7.04 -79.76 6.85Z" fill="#F8F0DF" data-fill="stock" data-knockout="1"/>
+</g>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-135 -158 270 336" width="540" height="672">
+<title>HN1 Cloud</title>
+<g id="back">
+  <path d="M-68 10C-68 23.25 -78.75 34 -92 34C-105.25 34 -116 23.25 -116 10C-116 -3.25 -105.25 -14 -92 -14C-78.75 -14 -68 -3.25 -68 10Z" fill="none" stroke="#241820" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-71 -28C-71 -13.09 -83.09 -1 -98 -1C-112.91 -1 -125 -13.09 -125 -28C-125 -42.91 -112.91 -55 -98 -55C-83.09 -55 -71 -42.91 -71 -28Z" fill="none" stroke="#241820" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-49 -68C-49 -51.98 -61.98 -39 -78 -39C-94.02 -39 -107 -51.98 -107 -68C-107 -84.02 -94.02 -97 -78 -97C-61.98 -97 -49 -84.02 -49 -68Z" fill="none" stroke="#241820" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-12 -94C-12 -77.43 -25.43 -64 -42 -64C-58.57 -64 -72 -77.43 -72 -94C-72 -110.57 -58.57 -124 -42 -124C-25.43 -124 -12 -110.57 -12 -94Z" fill="none" stroke="#241820" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M31 -104C31 -86.88 17.12 -73 0 -73C-17.12 -73 -31 -86.88 -31 -104C-31 -121.12 -17.12 -135 0 -135C17.12 -135 31 -121.12 31 -104Z" fill="none" stroke="#241820" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M72 -94C72 -77.43 58.57 -64 42 -64C25.43 -64 12 -77.43 12 -94C12 -110.57 25.43 -124 42 -124C58.57 -124 72 -110.57 72 -94Z" fill="none" stroke="#241820" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M107 -68C107 -51.98 94.02 -39 78 -39C61.98 -39 49 -51.98 49 -68C49 -84.02 61.98 -97 78 -97C94.02 -97 107 -84.02 107 -68Z" fill="none" stroke="#241820" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M125 -28C125 -13.09 112.91 -1 98 -1C83.09 -1 71 -13.09 71 -28C71 -42.91 83.09 -55 98 -55C112.91 -55 125 -42.91 125 -28Z" fill="none" stroke="#241820" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M116 10C116 23.25 105.25 34 92 34C78.75 34 68 23.25 68 10C68 -3.25 78.75 -14 92 -14C105.25 -14 116 -3.25 116 10Z" fill="none" stroke="#241820" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M60 -60C60 -26.86 33.14 0 0 0C-33.14 0 -60 -26.86 -60 -60C-60 -93.14 -33.14 -120 0 -120C33.14 -120 60 -93.14 60 -60Z" fill="none" stroke="#241820" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-68 10C-68 23.25 -78.75 34 -92 34C-105.25 34 -116 23.25 -116 10C-116 -3.25 -105.25 -14 -92 -14C-78.75 -14 -68 -3.25 -68 10Z" fill="#4A2320" data-fill="hair"/>
+  <path d="M-71 -28C-71 -13.09 -83.09 -1 -98 -1C-112.91 -1 -125 -13.09 -125 -28C-125 -42.91 -112.91 -55 -98 -55C-83.09 -55 -71 -42.91 -71 -28Z" fill="#4A2320" data-fill="hair"/>
+  <path d="M-49 -68C-49 -51.98 -61.98 -39 -78 -39C-94.02 -39 -107 -51.98 -107 -68C-107 -84.02 -94.02 -97 -78 -97C-61.98 -97 -49 -84.02 -49 -68Z" fill="#4A2320" data-fill="hair"/>
+  <path d="M-12 -94C-12 -77.43 -25.43 -64 -42 -64C-58.57 -64 -72 -77.43 -72 -94C-72 -110.57 -58.57 -124 -42 -124C-25.43 -124 -12 -110.57 -12 -94Z" fill="#4A2320" data-fill="hair"/>
+  <path d="M31 -104C31 -86.88 17.12 -73 0 -73C-17.12 -73 -31 -86.88 -31 -104C-31 -121.12 -17.12 -135 0 -135C17.12 -135 31 -121.12 31 -104Z" fill="#4A2320" data-fill="hair"/>
+  <path d="M72 -94C72 -77.43 58.57 -64 42 -64C25.43 -64 12 -77.43 12 -94C12 -110.57 25.43 -124 42 -124C58.57 -124 72 -110.57 72 -94Z" fill="#4A2320" data-fill="hair"/>
+  <path d="M107 -68C107 -51.98 94.02 -39 78 -39C61.98 -39 49 -51.98 49 -68C49 -84.02 61.98 -97 78 -97C94.02 -97 107 -84.02 107 -68Z" fill="#4A2320" data-fill="hair"/>
+  <path d="M125 -28C125 -13.09 112.91 -1 98 -1C83.09 -1 71 -13.09 71 -28C71 -42.91 83.09 -55 98 -55C112.91 -55 125 -42.91 125 -28Z" fill="#4A2320" data-fill="hair"/>
+  <path d="M116 10C116 23.25 105.25 34 92 34C78.75 34 68 23.25 68 10C68 -3.25 78.75 -14 92 -14C105.25 -14 116 -3.25 116 10Z" fill="#4A2320" data-fill="hair"/>
+  <path d="M60 -60C60 -26.86 33.14 0 0 0C-33.14 0 -60 -26.86 -60 -60C-60 -93.14 -33.14 -120 0 -120C33.14 -120 60 -93.14 60 -60Z" fill="#4A2320" data-fill="hair"/>
+</g>
+<g id="front">
+  <path d="M-30 -68C-30 -55.85 -39.85 -46 -52 -46C-64.15 -46 -74 -55.85 -74 -68C-74 -80.15 -64.15 -90 -52 -90C-39.85 -90 -30 -80.15 -30 -68Z" fill="none" stroke="#241820" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M6 -78C6 -64.75 -4.75 -54 -18 -54C-31.25 -54 -42 -64.75 -42 -78C-42 -91.25 -31.25 -102 -18 -102C-4.75 -102 6 -91.25 6 -78Z" fill="none" stroke="#241820" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M42 -78C42 -64.75 31.25 -54 18 -54C4.75 -54 -6 -64.75 -6 -78C-6 -91.25 4.75 -102 18 -102C31.25 -102 42 -91.25 42 -78Z" fill="none" stroke="#241820" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M74 -68C74 -55.85 64.15 -46 52 -46C39.85 -46 30 -55.85 30 -68C30 -80.15 39.85 -90 52 -90C64.15 -90 74 -80.15 74 -68Z" fill="none" stroke="#241820" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-30 -68C-30 -55.85 -39.85 -46 -52 -46C-64.15 -46 -74 -55.85 -74 -68C-74 -80.15 -64.15 -90 -52 -90C-39.85 -90 -30 -80.15 -30 -68Z" fill="#4A2320" data-fill="hair"/>
+  <path d="M6 -78C6 -64.75 -4.75 -54 -18 -54C-31.25 -54 -42 -64.75 -42 -78C-42 -91.25 -31.25 -102 -18 -102C-4.75 -102 6 -91.25 6 -78Z" fill="#4A2320" data-fill="hair"/>
+  <path d="M42 -78C42 -64.75 31.25 -54 18 -54C4.75 -54 -6 -64.75 -6 -78C-6 -91.25 4.75 -102 18 -102C31.25 -102 42 -91.25 42 -78Z" fill="#4A2320" data-fill="hair"/>
+  <path d="M74 -68C74 -55.85 64.15 -46 52 -46C39.85 -46 30 -55.85 30 -68C30 -80.15 39.85 -90 52 -90C64.15 -90 74 -80.15 74 -68Z" fill="#4A2320" data-fill="hair"/>
+  <path d="M-37.88 -98.61L-23.33 -102.24C-21.99 -102.57 -20.63 -101.76 -20.3 -100.42L-20.3 -100.42C-19.96 -99.08 -20.78 -97.72 -22.12 -97.39L-36.67 -93.76C-38.01 -93.43 -39.37 -94.24 -39.7 -95.58L-39.7 -95.58C-40.04 -96.92 -39.22 -98.28 -37.88 -98.61Z" fill="#F8F0DF" data-fill="stock" data-knockout="1"/>
+</g>
+</svg>

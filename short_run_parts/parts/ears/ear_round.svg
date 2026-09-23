@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-118 -108 236 216" width="472" height="432">
+<title>ear Round</title>
+<g id="ears">
+  <path d="M-115.18 12C-115.18 21.39 -107.57 29 -98.18 29C-88.79 29 -81.18 21.39 -81.18 12C-81.18 2.61 -88.79 -5 -98.18 -5C-107.57 -5 -115.18 2.61 -115.18 12Z" fill="#F0B48F" data-fill="skin" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-91.66 9.26C-92.81 6.1 -95.81 4 -99.18 4C-102.54 4 -105.54 6.1 -106.69 9.26" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M115.18 12C115.18 21.39 107.57 29 98.18 29C88.79 29 81.18 21.39 81.18 12C81.18 2.61 88.79 -5 98.18 -5C107.57 -5 115.18 2.61 115.18 12Z" fill="#F0B48F" data-fill="skin" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M91.66 9.26C92.81 6.1 95.81 4 99.18 4C102.54 4 105.54 6.1 106.69 9.26" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+</g>
+</svg>

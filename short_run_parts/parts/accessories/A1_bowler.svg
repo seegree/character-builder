@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-135 -158 270 336" width="540" height="672">
+<title>A1 Bowler</title>
+<g id="A1">
+  <path d="M-68 -60C-68 -60 -73.67 -84.67 -70 -96C-66.33 -107.33 -57.67 -121.33 -46 -128C-34.33 -134.67 -15.33 -136 0 -136C15.33 -136 34.33 -134.67 46 -128C57.67 -121.33 66.33 -107.33 70 -96C73.67 -84.67 68 -60 68 -60C68 -60 -68 -60 -68 -60Z" fill="#1F6F78" data-fill="bottom" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-68 -60C-68 -60 -69 -78 -69 -78C-69 -78 69 -78 69 -78C69 -78 68 -60 68 -60C68 -60 -68 -60 -68 -60Z" fill="#F2B632" data-fill="accent" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-104 -62C-104 -65.67 -115.33 -71 -98 -74C-80.67 -77 -32.67 -80 0 -80C32.67 -80 80.67 -77 98 -74C115.33 -71 104 -65.67 104 -62C104 -58.33 115.33 -54.67 98 -52C80.67 -49.33 32.67 -46 0 -46C-32.67 -46 -80.67 -49.33 -98 -52C-115.33 -54.67 -104 -58.33 -104 -62Z" fill="#1F6F78" data-fill="bottom" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-43.81 -111.44L-25.74 -117.31C-24.42 -117.74 -23.01 -117.02 -22.59 -115.71L-22.59 -115.71C-22.16 -114.4 -22.88 -112.98 -24.19 -112.56L-42.26 -106.69C-43.58 -106.26 -44.99 -106.98 -45.41 -108.29L-45.41 -108.29C-45.84 -109.6 -45.12 -111.02 -43.81 -111.44Z" fill="#F8F0DF" data-fill="stock" data-knockout="1"/>
+</g>
+</svg>

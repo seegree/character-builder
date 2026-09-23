@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-135 -158 270 336" width="540" height="672">
+<title>A2 Beanie</title>
+<g id="A2">
+  <path d="M-95 -44C-95 -44 -103.5 -71.33 -98 -84C-92.5 -96.67 -78.33 -112.33 -62 -120C-45.67 -127.67 -20.67 -130 0 -130C20.67 -130 45.67 -127.67 62 -120C78.33 -112.33 92.5 -96.67 98 -84C103.5 -71.33 95 -44 95 -44C95 -44 -95 -44 -95 -44Z" fill="#E4572E" data-fill="top" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M17 -138C17 -128.61 9.39 -121 0 -121C-9.39 -121 -17 -128.61 -17 -138C-17 -147.39 -9.39 -155 0 -155C9.39 -155 17 -147.39 17 -138Z" fill="#F2B632" data-fill="accent" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-87 -64L87 -64C93.63 -64 99 -58.63 99 -52L99 -48C99 -41.37 93.63 -36 87 -36L-87 -36C-93.63 -36 -99 -41.37 -99 -48L-99 -52C-99 -58.63 -93.63 -64 -87 -64Z" fill="#F2B632" data-fill="accent" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-40 -50L-40 -50.1" fill="none" stroke="#241820" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-55.82 -104.13L-37.39 -108.72C-36.05 -109.06 -34.69 -108.24 -34.36 -106.9L-34.36 -106.9C-34.02 -105.56 -34.84 -104.21 -36.18 -103.87L-54.61 -99.28C-55.95 -98.94 -57.31 -99.76 -57.64 -101.1L-57.64 -101.1C-57.98 -102.44 -57.16 -103.79 -55.82 -104.13Z" fill="#F8F0DF" data-fill="stock" data-knockout="1"/>
+  <path d="M-52 -60L-52 -40" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-18 -60L-18 -40" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M18 -60L18 -40" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M52 -60L52 -40" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+</g>
+</svg>

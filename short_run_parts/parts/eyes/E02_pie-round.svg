@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-118 -108 236 216" width="472" height="432">
+<title>E02 Pie Round</title>
+<g id="E02">
+  <path d="M-57 8C-57 19.6 -47.6 29 -36 29C-24.4 29 -15 19.6 -15 8C-15 -3.6 -24.4 -13 -36 -13C-47.6 -13 -57 -3.6 -57 8Z" fill="#F8F0DF" data-fill="stock" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-32 11L-42.83 4.75C-45.76 9.83 -44.77 16.26 -40.44 20.22C-36.12 24.18 -29.63 24.6 -24.83 21.24C-20.03 17.88 -18.21 11.63 -20.45 6.22C-22.69 0.8 -28.4 -2.33 -34.17 -1.31Z" fill="#241820" data-fill="ink"/>
+  <path d="M57 8C57 19.6 47.6 29 36 29C24.4 29 15 19.6 15 8C15 -3.6 24.4 -13 36 -13C47.6 -13 57 -3.6 57 8Z" fill="#F8F0DF" data-fill="stock" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M32 11L42.83 4.75C45.76 9.83 44.77 16.26 40.44 20.22C36.12 24.18 29.63 24.6 24.83 21.24C20.03 17.88 18.21 11.63 20.45 6.22C22.69 0.8 28.4 -2.33 34.17 -1.31Z" fill="#241820" data-fill="ink"/>
+</g>
+</svg>

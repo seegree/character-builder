@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-130 -20 150 90" width="300" height="180">
+<title>S6 Flat (ankle origin, left foot)</title>
+<g id="S6">
+  <path d="M12 20C14 25.33 13.67 32 12 36C10.33 40 10.67 42.67 2 44C-6.67 45.33 -25.67 44.33 -40 44C-54.33 43.67 -74 44 -84 42C-94 40 -99.67 35.67 -100 32C-100.33 28.33 -95.33 23.33 -86 20C-76.67 16.67 -55.67 14.33 -44 12C-32.33 9.67 -23.33 7.33 -16 6C-8.67 4.67 -4.67 1.67 0 4C4.67 6.33 10 14.67 12 20Z" fill="#F2B632" data-fill="accent" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-76.15 25.06L-56.26 22.97C-55.17 22.85 -54.18 23.65 -54.07 24.75L-54.07 24.75C-53.95 25.84 -54.75 26.83 -55.85 26.94L-75.74 29.03C-76.83 29.15 -77.82 28.35 -77.93 27.25L-77.93 27.25C-78.05 26.16 -77.25 25.17 -76.15 25.06Z" fill="#F8F0DF" data-fill="stock" data-knockout="1"/>
+  <path d="M-1 12C-1 15.87 -4.13 19 -8 19C-11.87 19 -15 15.87 -15 12C-15 8.13 -11.87 5 -8 5C-4.13 5 -1 8.13 -1 12Z" fill="#F2B632" data-fill="accent" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+</g>
+</svg>

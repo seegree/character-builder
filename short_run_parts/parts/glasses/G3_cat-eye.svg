@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-118 -108 236 216" width="472" height="432">
+<title>G3 Cat-Eye</title>
+<g id="G3">
+  <path d="M6 14C6 9 8.33 0 14 -4C19.67 -8 30.33 -7 40 -10C49.67 -13 72 -22 72 -22C72 -22 71 -3.67 69 4C67 11.67 65.5 19.33 60 24C54.5 28.67 43.67 31.67 36 32C28.33 32.33 19 29 14 26C9 23 6 19 6 14Z" fill="none" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M72.6 -19C72.6 -17.01 70.99 -15.4 69 -15.4C67.01 -15.4 65.4 -17.01 65.4 -19C65.4 -20.99 67.01 -22.6 69 -22.6C70.99 -22.6 72.6 -20.99 72.6 -19Z" fill="#F2B632" data-fill="accent" stroke="#241820" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M70 -12L94 -8" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-6 14C-6 9 -8.33 0 -14 -4C-19.67 -8 -30.33 -7 -40 -10C-49.67 -13 -72 -22 -72 -22C-72 -22 -71 -3.67 -69 4C-67 11.67 -65.5 19.33 -60 24C-54.5 28.67 -43.67 31.67 -36 32C-28.33 32.33 -19 29 -14 26C-9 23 -6 19 -6 14Z" fill="none" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-65.4 -19C-65.4 -17.01 -67.01 -15.4 -69 -15.4C-70.99 -15.4 -72.6 -17.01 -72.6 -19C-72.6 -20.99 -70.99 -22.6 -69 -22.6C-67.01 -22.6 -65.4 -20.99 -65.4 -19Z" fill="#F2B632" data-fill="accent" stroke="#241820" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-70 -12L-94 -8" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-6 0C-2 -6 2 -6 6 0" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+</g>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-118 -108 236 216" width="472" height="432">
+<title>M01 Grin</title>
+<g id="M01">
+  <path d="M-27 45L27 45C26 63 13 74 0 74C-13 74 -26 63 -27 45Z" fill="#241820" data-fill="ink" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-18 45L18 45C19.66 45 21 46.34 21 48L21 51C21 52.66 19.66 54 18 54L-18 54C-19.66 54 -21 52.66 -21 51L-21 48C-21 46.34 -19.66 45 -18 45Z" fill="#F8F0DF" data-fill="stock"/>
+  <path d="M11 67.5C11 70.54 6.08 73 0 73C-6.08 73 -11 70.54 -11 67.5C-11 64.46 -6.08 62 0 62C6.08 62 11 64.46 11 67.5Z" fill="#F2B632" data-fill="accent"/>
+</g>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-118 -108 236 216" width="472" height="432">
+<title>H6 Heart</title>
+<g id="ears">
+  <path d="M-110.84 12C-110.84 21.39 -103.23 29 -93.84 29C-84.45 29 -76.84 21.39 -76.84 12C-76.84 2.61 -84.45 -5 -93.84 -5C-103.23 -5 -110.84 2.61 -110.84 12Z" fill="#F0B48F" data-fill="skin" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-87.32 9.26C-88.47 6.1 -91.48 4 -94.84 4C-98.21 4 -101.21 6.1 -102.36 9.26" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M110.84 12C110.84 21.39 103.23 29 93.84 29C84.45 29 76.84 21.39 76.84 12C76.84 2.61 84.45 -5 93.84 -5C103.23 -5 110.84 2.61 110.84 12Z" fill="#F0B48F" data-fill="skin" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M87.32 9.26C88.47 6.1 91.48 4 94.84 4C98.21 4 101.21 6.1 102.36 9.26" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+</g>
+<g id="head">
+  <path d="M0 -90C29.3 -90 58.68 -80.95 76.18 -63.64C93.68 -46.33 97.14 -24.48 91 0C84.86 24.48 61.75 46.33 44.25 63.64C26.75 80.95 17.02 90 0 90C-17.02 90 -26.75 80.95 -44.25 63.64C-61.75 46.33 -84.86 24.48 -91 0C-97.14 -24.48 -93.68 -46.33 -76.18 -63.64C-58.68 -80.95 -29.3 -90 0 -90Z" fill="#F0B48F" data-fill="skin" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+</g>
+</svg>

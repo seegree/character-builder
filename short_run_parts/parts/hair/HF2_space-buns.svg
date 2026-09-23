@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-135 -158 270 336" width="540" height="672">
+<title>HF2 Space Buns</title>
+<g id="back">
+  <path d="M-41 -96C-41 -79.98 -53.98 -67 -70 -67C-86.02 -67 -99 -79.98 -99 -96C-99 -112.02 -86.02 -125 -70 -125C-53.98 -125 -41 -112.02 -41 -96Z" fill="none" stroke="#241820" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M99 -96C99 -79.98 86.02 -67 70 -67C53.98 -67 41 -79.98 41 -96C41 -112.02 53.98 -125 70 -125C86.02 -125 99 -112.02 99 -96Z" fill="none" stroke="#241820" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-41 -96C-41 -79.98 -53.98 -67 -70 -67C-86.02 -67 -99 -79.98 -99 -96C-99 -112.02 -86.02 -125 -70 -125C-53.98 -125 -41 -112.02 -41 -96Z" fill="#4A2320" data-fill="hair"/>
+  <path d="M99 -96C99 -79.98 86.02 -67 70 -67C53.98 -67 41 -79.98 41 -96C41 -112.02 53.98 -125 70 -125C86.02 -125 99 -112.02 99 -96Z" fill="#4A2320" data-fill="hair"/>
+  <path d="M-84 -104L-64 -88" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M64 -88L84 -104" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+</g>
+<g id="front">
+  <path d="M-92 -30C-92 -30 -101 -57 -96 -68C-91 -79 -78 -90.33 -62 -96C-46 -101.67 -20.67 -102 0 -102C20.67 -102 46 -101.67 62 -96C78 -90.33 91 -79 96 -68C101 -57 92 -30 92 -30C92 -30 88.33 -36.67 84 -42C79.67 -47.33 74.33 -57.33 66 -62C57.67 -66.67 45 -69.67 34 -70C23 -70.33 0 -64 0 -64C0 -64 -23 -70.33 -34 -70C-45 -69.67 -57.67 -66.67 -66 -62C-74.33 -57.33 -79.67 -47.33 -84 -42C-88.33 -36.67 -92 -30 -92 -30Z" fill="#4A2320" data-fill="hair" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M0 -100L0 -68" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-57.82 -88.13L-39.39 -92.72C-38.05 -93.06 -36.69 -92.24 -36.36 -90.9L-36.36 -90.9C-36.02 -89.56 -36.84 -88.21 -38.18 -87.87L-56.61 -83.28C-57.95 -82.94 -59.31 -83.76 -59.64 -85.1L-59.64 -85.1C-59.98 -86.44 -59.16 -87.79 -57.82 -88.13Z" fill="#F8F0DF" data-fill="stock" data-knockout="1"/>
+</g>
+</svg>

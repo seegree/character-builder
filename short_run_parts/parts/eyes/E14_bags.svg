@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-118 -108 236 216" width="472" height="432">
+<title>E14 Bags</title>
+<g id="E14">
+  <path d="M-53 8C-53 17.39 -45.39 25 -36 25C-26.61 25 -19 17.39 -19 8C-19 -1.39 -26.61 -9 -36 -9C-45.39 -9 -53 -1.39 -53 8Z" fill="#F8F0DF" data-fill="stock"/>
+  <path d="M-42 13C-42 17.42 -38.42 21 -34 21C-29.58 21 -26 17.42 -26 13C-26 8.58 -29.58 5 -34 5C-38.42 5 -42 8.58 -42 13Z" fill="#241820" data-fill="ink"/>
+  <path d="M-39.2 10.6C-39.2 11.93 -38.13 13 -36.8 13C-35.47 13 -34.4 11.93 -34.4 10.6C-34.4 9.27 -35.47 8.2 -36.8 8.2C-38.13 8.2 -39.2 9.27 -39.2 10.6Z" fill="#F8F0DF" data-fill="stock" data-knockout="1"/>
+  <path d="M-20.18 1.78C-23.05 -5.53 -30.57 -9.93 -38.36 -8.84C-46.14 -7.75 -52.17 -1.46 -52.92 6.37Z" fill="#F0B48F" data-fill="skin"/>
+  <path d="M-53 8C-53 17.39 -45.39 25 -36 25C-26.61 25 -19 17.39 -19 8C-19 -1.39 -26.61 -9 -36 -9C-45.39 -9 -53 -1.39 -53 8Z" fill="none" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-20.18 1.78L-52.92 6.37" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="butt" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M-50.34 28.48C-43.4 33.33 -34.48 34.35 -26.63 31.18" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M53 8C53 17.39 45.39 25 36 25C26.61 25 19 17.39 19 8C19 -1.39 26.61 -9 36 -9C45.39 -9 53 -1.39 53 8Z" fill="#F8F0DF" data-fill="stock"/>
+  <path d="M42 13C42 17.42 38.42 21 34 21C29.58 21 26 17.42 26 13C26 8.58 29.58 5 34 5C38.42 5 42 8.58 42 13Z" fill="#241820" data-fill="ink"/>
+  <path d="M39.2 10.6C39.2 11.93 38.13 13 36.8 13C35.47 13 34.4 11.93 34.4 10.6C34.4 9.27 35.47 8.2 36.8 8.2C38.13 8.2 39.2 9.27 39.2 10.6Z" fill="#F8F0DF" data-fill="stock" data-knockout="1"/>
+  <path d="M20.18 1.78C23.05 -5.53 30.57 -9.93 38.36 -8.84C46.14 -7.75 52.17 -1.46 52.92 6.37Z" fill="#F0B48F" data-fill="skin"/>
+  <path d="M53 8C53 17.39 45.39 25 36 25C26.61 25 19 17.39 19 8C19 -1.39 26.61 -9 36 -9C45.39 -9 53 -1.39 53 8Z" fill="none" stroke="#241820" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M20.18 1.78L52.92 6.37" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="butt" stroke-linejoin="round" data-stroke="ink"/>
+  <path d="M50.34 28.48C43.4 33.33 34.48 34.35 26.63 31.18" fill="none" stroke="#241820" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" data-stroke="ink"/>
+</g>
+</svg>
