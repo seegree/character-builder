@@ -14,8 +14,10 @@ texture pass, auto-blink, and a breathing idle.
 
 ## Install
 
-1. Copy **`CharacterBuilder.jsx`** into your AE scripts folder:
+1. Copy **`dist/CharacterBuilder.jsx`** into your AE scripts folder:
    `…/Adobe After Effects <version>/Scripts/ScriptUI Panels/`
+   This single file has the whole engine built in; nothing else needs to
+   travel with it.
 2. Restart After Effects and open **Window → CharacterBuilder** (it docks
    like any panel).
 
@@ -23,10 +25,11 @@ texture pass, auto-blink, and a breathing idle.
 modern `setTrackMatte` API and the limbs use `createPath()` expressions.
 Built and tested on AE 2026.
 
-> **Note (dev build):** the panel loads its engine from this repo's
-> `tools/` folder. Keep the repo in place, or edit the `toolsDir()`
-> fallback path at the top of `CharacterBuilder.jsx`. A self-contained
-> single-file build (inlining the engine) is a planned packaging step.
+> **Working on the code:** the top-level `CharacterBuilder.jsx` is the
+> development version. It loads its engine from the `tools/` folder next
+> to it, so run it from inside the repo (File → Scripts → Run Script
+> File…). After changing anything, run `python3 tools/build_standalone.py`
+> to rebuild `dist/CharacterBuilder.jsx`.
 
 ## Using the panel
 
@@ -66,7 +69,8 @@ anchored at the joint, generic art tagged by region) and call
 
 ## Repo layout
 
-- `CharacterBuilder.jsx` — the dockable panel (install this)
+- `dist/CharacterBuilder.jsx` — the single-file panel (install this)
+- `CharacterBuilder.jsx` — the development panel; `tools/build_standalone.py` builds `dist/` from it
 - `tools/character_gen.jsx` — generator (genome + parts + spray-shade)
 - `tools/rigger.jsx` — art-agnostic hose-IK rigger (rig / pose / idle)
 - `tools/rig_spike.jsx` — the original single hard-coded rig (reference)
