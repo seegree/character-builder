@@ -19,7 +19,7 @@
     // Resolve ./tools relative to this script when possible.
     function toolsDir(){
         try{ var f=new File($.fileName); if(f && f.parent){ var t=new Folder(f.parent.fsName+"/tools"); if(t.exists) return t.fsName; } }catch(e){}
-        return "/Users/chrisg/Documents/after-effects-cc/character-builder/tools"; // dev fallback
+        return Folder.myDocuments.fsName+"/after-effects-cc/character-builder/tools"; // dev fallback: repo in ~/Documents
     }
     var TD=toolsDir();
     $.global.CB_NOAUTO=true;
